@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - Memory utilization
+Host: SGCARAUCANIA
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 62.54%
+   • Máximo: 82.76%
+   • Mínimo: 8.69%
+   • P95: 67.5%
+   • P99: 69.24%
+   • Desv. Estándar: 3.03
+   • Horas pico: 21:00, 13:00, 15:00
+   • Días pico: Wednesday, Tuesday, Monday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el Memory utilization del host SGCARAUCANIA durante el mes de enero, donde se observa un comportamiento de carga normal con un promedio del 62.54% y un nivel máximo registrado del 82.76%. Se confirma que los peaks de saturación, localizados principalmente en los horarios de las 21:00, 13:00 y 15:00, no son sostenidos ni frecuentes, manteniéndose la utilización en un rango estable la mayor parte del tiempo.
+----------------------------------------
+
+Generado: 2026-02-09 10:18:29

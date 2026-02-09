@@ -1,0 +1,1738 @@
+[
+  {
+    "itemid": "65609",
+    "name": "/home: Used space",
+    "key_": "vfs.fs.size[/home,used]",
+    "units": "B",
+    "lastvalue": "9751109632"
+  },
+  {
+    "itemid": "65610",
+    "name": "/boot: Used space",
+    "key_": "vfs.fs.size[/boot,used]",
+    "units": "B",
+    "lastvalue": "591855616"
+  },
+  {
+    "itemid": "65611",
+    "name": "/archives: Used space",
+    "key_": "vfs.fs.size[/archives,used]",
+    "units": "B",
+    "lastvalue": "95980634112"
+  },
+  {
+    "itemid": "65612",
+    "name": "/backup: Used space",
+    "key_": "vfs.fs.size[/backup,used]",
+    "units": "B",
+    "lastvalue": "16947937280"
+  },
+  {
+    "itemid": "71344",
+    "name": "Comparacion AWS y rman archive",
+    "key_": "comparartamanoawsarchive",
+    "units": "",
+    "lastvalue": "OK"
+  },
+  {
+    "itemid": "71374",
+    "name": "Comparacion AWS y export local",
+    "key_": "comparartamanoawsexport",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "71404",
+    "name": "Comparacion AWS y rman local",
+    "key_": "comparartamanoawsrman",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67559",
+    "name": "sdk: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdk]",
+    "units": "!ms",
+    "lastvalue": "0.0982142857142857"
+  },
+  {
+    "itemid": "67561",
+    "name": "sdj: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdj]",
+    "units": "!ms",
+    "lastvalue": "0.08928571428571427"
+  },
+  {
+    "itemid": "67572",
+    "name": "sdk: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdk]",
+    "units": "!ms",
+    "lastvalue": "0.3125"
+  },
+  {
+    "itemid": "67574",
+    "name": "sdj: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdj]",
+    "units": "!ms",
+    "lastvalue": "0.375"
+  },
+  {
+    "itemid": "67591",
+    "name": "sdk: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdk/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67592",
+    "name": "sdk: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdk]",
+    "units": "",
+    "lastvalue": "0.00044990686310061726"
+  },
+  {
+    "itemid": "67593",
+    "name": "sdk: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdk]",
+    "units": "!w/s",
+    "lastvalue": "1.0664458977199816"
+  },
+  {
+    "itemid": "67594",
+    "name": "sdk: Disk utilization",
+    "key_": "vfs.dev.util[sdk]",
+    "units": "%",
+    "lastvalue": "0.06831919032268632"
+  },
+  {
+    "itemid": "67595",
+    "name": "sdk: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdk]",
+    "units": "",
+    "lastvalue": "0.00021662182297437128"
+  },
+  {
+    "itemid": "67596",
+    "name": "sdk: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdk]",
+    "units": "!r/s",
+    "lastvalue": "1.966259623921216"
+  },
+  {
+    "itemid": "67597",
+    "name": "sdk: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdk]",
+    "units": "",
+    "lastvalue": "0.0006498654689231138"
+  },
+  {
+    "itemid": "67605",
+    "name": "sdj: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdj/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67606",
+    "name": "sdj: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdj]",
+    "units": "",
+    "lastvalue": "0.00048332862670333294"
+  },
+  {
+    "itemid": "67607",
+    "name": "sdj: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdj]",
+    "units": "!w/s",
+    "lastvalue": "1.0666562796211485"
+  },
+  {
+    "itemid": "67608",
+    "name": "sdj: Disk utilization",
+    "key_": "vfs.dev.util[sdj]",
+    "units": "%",
+    "lastvalue": "0.05666611485487352"
+  },
+  {
+    "itemid": "67655",
+    "name": "sdc: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdc]",
+    "units": "",
+    "lastvalue": "0.08250505913872201"
+  },
+  {
+    "itemid": "67913",
+    "name": "Tamaño export FULL NUBE",
+    "key_": "tamanoexportfull",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "73410",
+    "name": "Alert log ORA-00600",
+    "key_": "log[{$ALERT_PATH}/alert_{$ORACLE_SID}.log,ORA-00600,,50,skip]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "73411",
+    "name": "Alert log ORA-07445",
+    "key_": "log[{$ALERT_PATH}/alert_{$ORACLE_SID}.log,ORA-07445,,50,skip]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "73412",
+    "name": "Alert log ORA-0403",
+    "key_": "log[{$ALERT_PATH}/alert_{$ORACLE_SID}.log,ORA-0403,,50,skip]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "73413",
+    "name": "Alert log ORA-",
+    "key_": "log[{$ALERT_PATH}/alert_{$ORACLE_SID}.log,ORA-,,50,skip]",
+    "units": "",
+    "lastvalue": "SGC01(3):ORA-00060: Deadlock detected. See Note 60.1 at My Oracle Support for Troubleshooting ORA-60 Errors. More info in file /oracle/app/diag/rdbms/sgc01cdb/sgc01CDB/trace/sgc01CDB_ora_664923.trc."
+  },
+  {
+    "itemid": "70402",
+    "name": "Estado db",
+    "key_": "estadodb",
+    "units": "",
+    "lastvalue": "activo"
+  },
+  {
+    "itemid": "70420",
+    "name": "Estado listener",
+    "key_": "listenerestado",
+    "units": "",
+    "lastvalue": "activo"
+  },
+  {
+    "itemid": "70675",
+    "name": "Comparacion ftp y rman local",
+    "key_": "comparartamanoftprman",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "70691",
+    "name": "Comparacion ftp y export local",
+    "key_": "comparartamanoftpexport",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "70724",
+    "name": "Comparacion ftp y rman archive",
+    "key_": "comparartamanoftparchive",
+    "units": "",
+    "lastvalue": "ok"
+  },
+  {
+    "itemid": "70741",
+    "name": "archives de uso raiz unidad",
+    "key_": "vfs.fs.uso_archives",
+    "units": "%",
+    "lastvalue": "29.456369053567457"
+  },
+  {
+    "itemid": "70786",
+    "name": "/usr: Free inodes in %",
+    "key_": "vfs.fs.inode[/usr,pfree]",
+    "units": "%",
+    "lastvalue": "95.793588"
+  },
+  {
+    "itemid": "70787",
+    "name": "/var: Free inodes in %",
+    "key_": "vfs.fs.inode[/var,pfree]",
+    "units": "%",
+    "lastvalue": "99.915886"
+  },
+  {
+    "itemid": "70788",
+    "name": "/usr: Space utilization",
+    "key_": "vfs.fs.size[/usr,pused]",
+    "units": "%",
+    "lastvalue": "72.062065"
+  },
+  {
+    "itemid": "70789",
+    "name": "/var: Space utilization",
+    "key_": "vfs.fs.size[/var,pused]",
+    "units": "%",
+    "lastvalue": "24.64979"
+  },
+  {
+    "itemid": "70790",
+    "name": "/usr: Total space",
+    "key_": "vfs.fs.size[/usr,total]",
+    "units": "B",
+    "lastvalue": "7449083904"
+  },
+  {
+    "itemid": "70791",
+    "name": "/var: Total space",
+    "key_": "vfs.fs.size[/var,total]",
+    "units": "B",
+    "lastvalue": "7449083904"
+  },
+  {
+    "itemid": "70792",
+    "name": "/usr: Used space",
+    "key_": "vfs.fs.size[/usr,used]",
+    "units": "B",
+    "lastvalue": "5367963648"
+  },
+  {
+    "itemid": "70793",
+    "name": "/var: Used space",
+    "key_": "vfs.fs.size[/var,used]",
+    "units": "B",
+    "lastvalue": "1836183552"
+  },
+  {
+    "itemid": "65561",
+    "name": "/home: Free inodes in %",
+    "key_": "vfs.fs.inode[/home,pfree]",
+    "units": "%",
+    "lastvalue": "99.774647"
+  },
+  {
+    "itemid": "70909",
+    "name": "buffer busy waits",
+    "key_": "oracle.buffer_busy_waits",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "70925",
+    "name": "db file scattered read",
+    "key_": "oracle.db_file_scattered_read",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "70941",
+    "name": "db file sequential read",
+    "key_": "oracle.db_file_sequential_read",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65562",
+    "name": "/boot: Free inodes in %",
+    "key_": "vfs.fs.inode[/boot,pfree]",
+    "units": "%",
+    "lastvalue": "99.928474"
+  },
+  {
+    "itemid": "65563",
+    "name": "/archives: Free inodes in %",
+    "key_": "vfs.fs.inode[/archives,pfree]",
+    "units": "%",
+    "lastvalue": "99.999673"
+  },
+  {
+    "itemid": "65564",
+    "name": "/backup: Free inodes in %",
+    "key_": "vfs.fs.inode[/backup,pfree]",
+    "units": "%",
+    "lastvalue": "99.995599"
+  },
+  {
+    "itemid": "70957",
+    "name": "free buffer waits",
+    "key_": "oracle.free_buffer_waits",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "70973",
+    "name": "latch: cache buffers chains",
+    "key_": "oracle.latch_cache_buffers_chains",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "70989",
+    "name": "library cache lock",
+    "key_": "oracle.library_cache_lock",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "71005",
+    "name": "log file sync",
+    "key_": "oracle.log_file_sync",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65597",
+    "name": "/: Used space",
+    "key_": "vfs.fs.size[/,used]",
+    "units": "B",
+    "lastvalue": "4699570176"
+  },
+  {
+    "itemid": "64480",
+    "name": "Host name of Zabbix agent running",
+    "key_": "agent.hostname",
+    "units": "",
+    "lastvalue": "sgcaltiplano"
+  },
+  {
+    "itemid": "64481",
+    "name": "Zabbix agent ping",
+    "key_": "agent.ping",
+    "units": "",
+    "lastvalue": "1"
+  },
+  {
+    "itemid": "64482",
+    "name": "Version of Zabbix agent running",
+    "key_": "agent.version",
+    "units": "",
+    "lastvalue": "6.0.43"
+  },
+  {
+    "itemid": "64483",
+    "name": "Maximum number of open file descriptors",
+    "key_": "kernel.maxfiles",
+    "units": "",
+    "lastvalue": "6815744"
+  },
+  {
+    "itemid": "64484",
+    "name": "Maximum number of processes",
+    "key_": "kernel.maxproc",
+    "units": "",
+    "lastvalue": "4194304"
+  },
+  {
+    "itemid": "64485",
+    "name": "Number of processes",
+    "key_": "proc.num",
+    "units": "",
+    "lastvalue": "715"
+  },
+  {
+    "itemid": "64486",
+    "name": "Number of running processes",
+    "key_": "proc.num[,,run]",
+    "units": "",
+    "lastvalue": "4"
+  },
+  {
+    "itemid": "64487",
+    "name": "System boot time",
+    "key_": "system.boottime",
+    "units": "unixtime",
+    "lastvalue": "1769738915"
+  },
+  {
+    "itemid": "64496",
+    "name": "CPU idle time",
+    "key_": "system.cpu.util[,idle]",
+    "units": "%",
+    "lastvalue": "39.097367"
+  },
+  {
+    "itemid": "64497",
+    "name": "CPU interrupt time",
+    "key_": "system.cpu.util[,interrupt]",
+    "units": "%",
+    "lastvalue": "0.604524"
+  },
+  {
+    "itemid": "64498",
+    "name": "CPU iowait time",
+    "key_": "system.cpu.util[,iowait]",
+    "units": "%",
+    "lastvalue": "2.270321"
+  },
+  {
+    "itemid": "64499",
+    "name": "CPU nice time",
+    "key_": "system.cpu.util[,nice]",
+    "units": "%",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "64500",
+    "name": "CPU softirq time",
+    "key_": "system.cpu.util[,softirq]",
+    "units": "%",
+    "lastvalue": "0.395521"
+  },
+  {
+    "itemid": "64501",
+    "name": "CPU steal time",
+    "key_": "system.cpu.util[,steal]",
+    "units": "%",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "64502",
+    "name": "CPU system time",
+    "key_": "system.cpu.util[,system]",
+    "units": "%",
+    "lastvalue": "2.311591"
+  },
+  {
+    "itemid": "64503",
+    "name": "CPU user time",
+    "key_": "system.cpu.util[,user]",
+    "units": "%",
+    "lastvalue": "56.702036"
+  },
+  {
+    "itemid": "64504",
+    "name": "System name",
+    "key_": "system.hostname",
+    "units": "",
+    "lastvalue": "sgcaltiplano"
+  },
+  {
+    "itemid": "64505",
+    "name": "System local time",
+    "key_": "system.localtime",
+    "units": "unixtime",
+    "lastvalue": "1770401347"
+  },
+  {
+    "itemid": "64506",
+    "name": "Free swap space",
+    "key_": "system.swap.size[,free]",
+    "units": "B",
+    "lastvalue": "15866400768"
+  },
+  {
+    "itemid": "64507",
+    "name": "Free swap space in %",
+    "key_": "system.swap.size[,pfree]",
+    "units": "%",
+    "lastvalue": "92.35463"
+  },
+  {
+    "itemid": "64508",
+    "name": "Total swap space",
+    "key_": "system.swap.size[,total]",
+    "units": "B",
+    "lastvalue": "17179865088"
+  },
+  {
+    "itemid": "64509",
+    "name": "Operating system architecture",
+    "key_": "system.sw.arch",
+    "units": "",
+    "lastvalue": "x86_64"
+  },
+  {
+    "itemid": "64510",
+    "name": "Operating system",
+    "key_": "system.sw.os",
+    "units": "",
+    "lastvalue": "Linux version 5.14.0-611.24.1.el9_7.x86_64 (mockbuild@x86-64-01.build.eng.rdu2.redhat.com) (gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11), GNU ld version 2.35.2-67.el9_7.1) #1 SMP PREEMPT_DYNAMIC Sat Jan 10 05:12:47 EST 2026"
+  },
+  {
+    "itemid": "64511",
+    "name": "Software installed",
+    "key_": "system.sw.packages",
+    "units": "",
+    "lastvalue": "[rpm] ModemManager-1.20.2-1.el9.x86_64, ModemManager-glib-1.20.2-1.el9.x86_64, NetworkManager-1.54.0-3.el9_7.x86_64, NetworkManager-adsl-1.54.0-3.el9_7.x86_64, NetworkManager-bluetooth-1.54.0-3.el9_7.x86_64, NetworkManager-config-server-1.54.0-3.el9_7.noarch, NetworkManager-libnm-1.54.0-3.el9_7.x86_64, NetworkManager-team-1.54.0-3.el9_7.x86_64, NetworkManager-tui-1.54.0-3.el9_7.x86_64, NetworkManager-wifi-1.54.0-3.el9_7.x86_64, NetworkManager-wwan-1.54.0-3.el9_7.x86_64, PackageKit-1.2.6-1.el9.x86_64, PackageKit-command-not-found-1.2.6-1.el9.x86_64, PackageKit-glib-1.2.6-1.el9.x86_64, PackageKit-gstreamer-plugin-1.2.6-1.el9.x86_64, PackageKit-gtk3-module-1.2.6-1.el9.x86_64, aardvark-dns-1.16.0-1.el9.x86_64, abattis-cantarell-fonts-0.301-4.el9.noarch, accountsservice-0.6.55-10.el9.x86_64, accountsservice-libs-0.6.55-10.el9.x86_64, acl-2.3.1-4.el9.x86_64, adcli-0.9.2-1.el9.x86_64, adobe-mappings-cmap-20171205-12.el9.noarch, adobe-mappings-cmap-deprecated-20171205-12.el9.noarch, adobe-mappings-pdf-20180407-10.el9.noarch, adobe-source-code-pro-fonts-2.030.1.050-12.el9.1.noarch, adwaita-cursor-theme-40.1.1-3.el9.noarch, adwaita-icon-theme-40.1.1-3.el9.noarch, alsa-lib-1.2.14-1.el9.x86_64, alsa-ucm-1.2.14-1.el9.noarch, alsa-utils-1.2.14-2.el9.x86_64, alternatives-1.24-2.el9.x86_64, annobin-12.98-1.el9.x86_64, appstream-0.16.1-1.el9.x86_64, appstream-data-9-20240827.el9.noarch, at-3.1.23-13.el9_7.x86_64, at-spi2-atk-2.38.0-4.el9.x86_64, at-spi2-core-2.40.3-1.el9.x86_64, atk-2.36.0-5.el9.x86_64, atkmm-2.28.2-2.el9.x86_64, attr-2.5.1-3.el9.x86_64, audit-3.1.5-7.el9.x86_64, audit-libs-3.1.5-7.el9.x86_64, authselect-1.2.6-3.el9.x86_64, authselect-libs-1.2.6-3.el9.x86_64, avahi-0.8-23.el9.x86_64, avahi-glib-0.8-23.el9.x86_64, avahi-libs-0.8-23.el9.x86_64, avahi-tools-0.8-23.el9.x86_64, awscli2-2.15.31-3.el9.noarch, baobab-40.0-3.el9.x86_64, basesystem-11-13.el9.noarch, bash-5.1.8-9.el9.x86_64, bash-completion-2.11-5.el9.noarch, bc-1.07.1-14.el9.x86_64, bind-libs-9.16.23-34.el9_7.1.x86_64, bind-license-9.16.23-34.el9_7.1.noarch, bind-utils-9.16.23-34.el9_7.1.x86_64, binutils-2.35.2-67.el9_7.1.x86_64, binutils-gold-2.35.2-67.el9_7.1.x86_64, blktrace-1.2.0-20.el9.x86_64, bluez-5.83-2.el9.x86_64, bluez-libs-5.83-2.el9.x86_64, bluez-obexd-5.83-2.el9.x86_64, bolt-0.9.7-1.el9.x86_64, bpftool-7.5.0-803.el9.x86_64, brlapi-0.8.2-4.el9.x86_64, brltty-6.3-4.el9.x86_64, bubblewrap-0.6.3-1.el9.x86_64, buildah-1.41.8-1.el9_7.x86_64, bzip2-1.0.8-10.el9_5.x86_64, bzip2-libs-1.0.8-10.el9_5.x86_64, c-ares-1.19.1-2.el9_4.x86_64, ca-certificates-2025.2.80_v9.0.305-91.el9.noarch, cairo-1.17.4-7.el9.x86_64, cairo-gobject-1.17.4-7.el9.x86_64, cairomm-1.14.2-10.el9.x86_64, checkpolicy-3.6-1.el9.x86_64, cheese-3.38.0-6.el9.x86_64, cheese-libs-3.38.0-6.el9.x86_64, chkconfig-1.24-2.el9.x86_64, chrome-gnome-shell-42.1-1.el9.x86_64, chrony-4.6.1-2.el9.x86_64, cifs-utils-7.2-1.el9.x86_64, clevis-21-208.el9.x86_64, clevis-luks-21-208.el9.x86_64, clutter-1.26.4-7.el9.x86_64, clutter-gst3-3.0.27-7.el9.x86_64, clutter-gtk-1.8.4-13.el9.x86_64, cockpit-344-1.el9.x86_64, cockpit-bridge-344-1.el9.noarch, cockpit-packagekit-344-1.el9.noarch, cockpit-podman-111-1.el9.noarch, cockpit-storaged-344-1.el9.noarch, cockpit-system-344-1.el9.noarch, cockpit-ws-344-1.el9.x86_64, cockpit-ws-selinux-344-1.el9.x86_64, cogl-1.22.8-5.el9.x86_64, color-filesystem-1-28.el9.noarch, colord-1.4.5-6.el9_6.x86_64, colord-gtk-0.2.0-7.el9.x86_64, colord-libs-1.4.5-6.el9_6.x86_64, compat-openssl11-1.1.1k-5.el9_6.1.x86_64, composefs-1.0.8-1.el9.x86_64, composefs-libs-1.0.8-1.el9.x86_64, conmon-2.1.13-1.el9.x86_64, container-selinux-2.240.0-3.el9_7.noarch, containernetworking-plugins-1.7.1-1.el9.x86_64, containers-common-1-135.el9_7.x86_64, containers-common-extra-1-135.el9_7.x86_64, coreutils-8.32-39.el9.x86_64, coreutils-common-8.32-39.el9.x86_64, cpio-2.13-16.el9.x86_64, cpp-11.5.0-11.el9.x86_64, cracklib-2.9.6-27.el9.x86_64, cracklib-dicts-2.9.6-27.el9.x86_64, criu-3.19-3.el9.x86_64, criu-libs-3.19-3.el9.x86_64, cronie-1.5.7-15.el9.x86_64, cronie-anacron-1.5.7-15.el9.x86_64, crontabs-1.11-27.20190603git.el9_0.noarch, crun-1.23.1-2.el9_7.x86_64, crypto-policies-20250905-1.git377cc42.el9_7.noarch, crypto-policies-scripts-20250905-1.git377cc42.el9_7.noarch, cryptsetup-2.7.2-4.el9.x86_64, cryptsetup-libs-2.7.2-4.el9.x86_64, cups-2.3.3op2-34.el9_7.2.x86_64, cups-client-2.3.3op2-34.el9_7.2.x86_64, cups-filesystem-2.3.3op2-34.el9_7.2.noarch, cups-filters-1.28.7-22.el9.x86_64, cups-filters-libs-1.28.7-22.el9.x86_64, cups-ipptool-2.3.3op2-34.el9_7.2.x86_64, cups-libs-2.3.3op2-34.el9_7.2.x86_64, cups-pk-helper-0.2.6-14.el9.x86_64, curl-7.76.1-34.el9.x86_64, cyrus-sasl-gssapi-2.1.27-22.el9.x86_64, cyrus-sasl-lib-2.1.27-22.el9.x86_64, cyrus-sasl-plain-2.1.27-22.el9.x86_64, dbus-1.12.20-8.el9.x86_64, dbus-broker-28-7.el9.x86_64, dbus-common-1.12.20-8.el9.noarch, dbus-daemon-1.12.20-8.el9.x86_64, dbus-glib-0.110-13.el9.x86_64, dbus-libs-1.12.20-8.el9.x86_64, dbus-tools-1.12.20-8.el9.x86_64, dconf-0.40.0-6.el9.x86_64, dejavu-sans-fonts-2.37-18.el9.noarch, dejavu-sans-mono-fonts-2.37-18.el9.noarch, dejavu-serif-fonts-2.37-18.el9.noarch, desktop-file-utils-0.26-6.el9.x86_64, device-mapper-1.02.206-2.el9_7.1.x86_64, device-mapper-event-1.02.206-2.el9_7.1.x86_64, device-mapper-event-libs-1.02.206-2.el9_7.1.x86_64, device-mapper-libs-1.02.206-2.el9_7.1.x86_64, device-mapper-multipath-0.8.7-39.el9.x86_64, device-mapper-multipath-libs-0.8.7-39.el9.x86_64, device-mapper-persistent-data-1.1.0-1.el9.x86_64, diffutils-3.7-12.el9.x86_64, dmidecode-3.6-1.el9.x86_64, dnf-4.14.0-31.el9.noarch, dnf-data-4.14.0-31.el9.noarch, dnf-plugins-core-4.3.0-24.el9_7.noarch, dnsmasq-2.85-17.el9_6.x86_64, dos2unix-7.4.2-4.el9.x86_64, dosfstools-4.2-3.el9.x86_64, dotconf-1.3-28.el9.x86_64, dracut-057-104.git20250919.el9_7.x86_64, dracut-config-rescue-057-104.git20250919.el9_7.x86_64, dracut-network-057-104.git20250919.el9_7.x86_64, dracut-squash-057-104.git20250919.el9_7.x86_64, dwz-0.16-1.el9.x86_64, e2fsprogs-1.46.5-8.el9.x86_64, e2fsprogs-libs-1.46.5-8.el9.x86_64, ed-1.14.2-12.el9.x86_64, efi-srpm-macros-6-4.el9.noarch, efivar-libs-38-3.el9.x86_64, elfutils-debuginfod-client-0.193-1.el9.x86_64, elfutils-default-yama-scope-0.193-1.el9.noarch, elfutils-libelf-0.193-1.el9.x86_64, elfutils-libs-0.193-1.el9.x86_64, emacs-filesystem-27.2-18.el9.noarch, enchant2-2.2.15-6.el9.x86_64, enscript-1.6.6-28.el9.x86_64, eog-40.3-2.el9.x86_64, epel-release-9-10.el9.noarch, espeak-ng-1.50-9.el9.x86_64, ethtool-6.15-2.el9.x86_64, evince-40.5-4.el9.x86_64, evince-libs-40.5-4.el9.x86_64, evince-nautilus-40.5-4.el9.x86_64, evince-previewer-40.5-4.el9.x86_64, evince-thumbnailer-40.5-4.el9.x86_64, evolution-data-server-3.40.4-10.el9.x86_64, evolution-data-server-langpacks-3.40.4-10.el9.noarch, evolution-data-server-ui-3.40.4-10.el9.x86_64, exempi-2.6.0-0.2.20211007gite23c213.el9.x86_64, exiv2-0.27.5-2.el9.x86_64, exiv2-libs-0.27.5-2.el9.x86_64, expat-2.5.0-5.el9_7.1.x86_64, fdk-aac-free-2.0.0-8.el9.x86_64, file-5.39-16.el9.x86_64, file-libs-5.39-16.el9.x86_64, filesystem-3.16-5.el9.x86_64, findutils-4.8.0-7.el9.x86_64, firefox-140.7.0-1.el9_7.x86_64, firewalld-1.3.4-15.el9_6.noarch, firewalld-filesystem-1.3.4-15.el9_6.noarch, flac-libs-1.3.3-10.el9_2.1.x86_64, flashrom-1.2-10.el9.x86_64, flatpak-1.12.9-4.el9_6.x86_64, flatpak-libs-1.12.9-4.el9_6.x86_64, flatpak-selinux-1.12.9-4.el9_6.noarch, flatpak-session-helper-1.12.9-4.el9_6.x86_64, fontconfig-2.14.0-2.el9_1.x86_64, fonts-filesystem-2.0.5-7.el9.1.noarch, fonts-srpm-macros-2.0.5-7.el9.1.noarch, foomatic-4.0.13-19.el9.x86_64, foomatic-db-4.0-72.20210209.el9.noarch, foomatic-db-filesystem-4.0-72.20210209.el9.noarch, foomatic-db-ppds-4.0-72.20210209.el9.noarch, fprintd-1.94.0-3.el9.x86_64, fprintd-pam-1.94.0-3.el9.x86_64, freetype-2.10.4-10.el9_5.x86_64, fribidi-1.0.10-6.el9.2.x86_64, fstrm-0.6.1-3.el9.x86_64, ftp-0.17-89.el9.x86_64, fuse-2.9.9-17.el9.x86_64, fuse-common-3.10.2-9.el9.x86_64, fuse-libs-2.9.9-17.el9.x86_64, fuse-overlayfs-1.15-1.el9.x86_64, fuse-sshfs-3.7.3-1.el9.x86_64, fuse3-3.10.2-9.el9.x86_64, fuse3-libs-3.10.2-9.el9.x86_64, fwupd-1.9.31-1.el9.x86_64, fwupd-plugin-flashrom-1.9.31-1.el9.x86_64, gawk-5.1.0-6.el9.x86_64, gawk-all-langpacks-5.1.0-6.el9.x86_64, gcc-11.5.0-11.el9.x86_64, gcc-c++-11.5.0-11.el9.x86_64, gcc-plugin-annobin-11.5.0-11.el9.x86_64, gcr-3.40.0-3.el9.x86_64, gcr-base-3.40.0-3.el9.x86_64, gd-2.3.2-3.el9.x86_64, gdbm-libs-1.23-1.el9.x86_64, gdisk-1.0.7-5.el9.x86_64, gdk-pixbuf2-2.42.6-6.el9_6.x86_64, gdk-pixbuf2-modules-2.42.6-6.el9_6.x86_64, gdm-40.1-38.el9_7.x86_64, gedit-40.0-6.el9.x86_64, geoclue2-2.6.0-8.el9_6.1.x86_64, geoclue2-libs-2.6.0-8.el9_6.1.x86_64, geocode-glib-3.26.2-5.el9.x86_64, gettext-0.21-8.el9.x86_64, gettext-libs-0.21-8.el9.x86_64, ghc-srpm-macros-1.5.0-6.el9.noarch, ghostscript-9.54.0-19.el9_6.x86_64, ghostscript-tools-fonts-9.54.0-19.el9_6.x86_64, ghostscript-tools-printing-9.54.0-19.el9_6.x86_64, giflib-5.2.1-9.el9.x86_64, gjs-1.68.6-4.el9.x86_64, glib-networking-2.68.3-3.el9.x86_64, glib2-2.68.4-18.el9_7.x86_64, glibc-2.34-231.el9_7.2.x86_64, glibc-all-langpacks-2.34-231.el9_7.2.x86_64, glibc-common-2.34-231.el9_7.2.x86_64, glibc-devel-2.34-231.el9_7.2.x86_64, glibc-gconv-extra-2.34-231.el9_7.2.x86_64, glibc-headers-2.34-231.el9_7.2.x86_64, glibc-langpack-es-2.34-231.el9_7.2.x86_64, glibmm24-2.66.1-1.el9.x86_64, glx-utils-8.4.0-12.20210504git0f9e7d9.el9.x86_64, gmp-6.2.0-13.el9.x86_64, gnome-autoar-0.4.1-2.el9.x86_64, gnome-bluetooth-3.34.5-3.el9.x86_64, gnome-bluetooth-libs-3.34.5-3.el9.x86_64, gnome-calculator-40.1-2.el9.x86_64, gnome-characters-40.0-3.el9.x86_64, gnome-classic-session-40.7-29.el9_7.noarch, gnome-color-manager-3.36.0-7.el9.x86_64, gnome-control-center-40.0-42.el9.x86_64, gnome-control-center-filesystem-40.0-42.el9.noarch, gnome-desktop3-40.4-1.el9.x86_64, gnome-disk-utility-40.2-2.el9.x86_64, gnome-font-viewer-40.0-3.el9.x86_64, gnome-initial-setup-40.4-3.el9.x86_64, gnome-keyring-40.0-4.el9_4.x86_64, gnome-keyring-pam-40.0-4.el9_4.x86_64, gnome-logs-3.36.0-8.el9.x86_64, gnome-menus-3.36.0-9.el9_4.x86_64, gnome-online-accounts-3.40.0-8.el9.x86_64, gnome-remote-desktop-40.0-11.el9_6.x86_64, gnome-screenshot-40.0-5.el9.x86_64, gnome-session-40.1.1-11.el9.x86_64, gnome-session-wayland-session-40.1.1-11.el9.x86_64, gnome-session-xsession-40.1.1-11.el9.x86_64, gnome-settings-daemon-40.0.1-22.el9.x86_64, gnome-shell-40.10-31.el9_7.x86_64, gnome-shell-extension-apps-menu-40.7-29.el9_7.noarch, gnome-shell-extension-background-logo-40.0~rc-4.el9.noarch, gnome-shell-extension-common-40.7-29.el9_7.noarch, gnome-shell-extension-desktop-icons-40.7-29.el9_7.noarch, gnome-shell-extension-launch-new-instance-40.7-29.el9_7.noarch, gnome-shell-extension-places-menu-40.7-29.el9_7.noarch, gnome-shell-extension-window-list-40.7-29.el9_7.noarch, gnome-software-45.3-3.el9.x86_64, gnome-system-monitor-40.1-3.el9.x86_64, gnome-terminal-3.40.3-1.el9.x86_64, gnome-terminal-nautilus-3.40.3-1.el9.x86_64, gnome-tour-40.1-2.el9.x86_64, gnome-user-docs-40.0-3.el9.noarch, gnome-video-effects-0.5.0-7.el9.noarch, gnupg2-2.3.3-5.el9_7.x86_64, gnutls-3.8.3-9.el9.x86_64, go-srpm-macros-3.6.0-12.el9_7.noarch, gobject-introspection-1.68.0-11.el9.x86_64, gom-0.4-6.el9.x86_64, google-droid-sans-fonts-20200215-11.el9.2.noarch, google-noto-cjk-fonts-common-20230817-2.el9.noarch, google-noto-emoji-color-fonts-20211102-1.el9.noarch, google-noto-fonts-common-20201206-5.el9.noarch, google-noto-sans-cjk-ttc-fonts-20230817-2.el9.noarch, google-noto-sans-gurmukhi-fonts-20201206-5.el9.noarch, google-noto-sans-sinhala-vf-fonts-20201206-5.el9.noarch, google-noto-serif-cjk-ttc-fonts-20230817-2.el9.noarch, gpg-pubkey-3228467c-613798eb, gpg-pubkey-5a6340b3-6229229e, gpg-pubkey-fd431d51-4ae0493b, gpgme-1.15.1-6.el9.x86_64, gpm-libs-1.20.7-29.el9.x86_64, graphene-1.10.6-2.el9.x86_64, graphite2-1.3.14-9.el9.x86_64, grep-3.6-5.el9.x86_64, grilo-0.3.13-7.el9.x86_64, grilo-plugins-0.3.13-6.el9.x86_64, groff-1.22.4-10.el9.x86_64, groff-base-1.22.4-10.el9.x86_64, grub2-common-2.06-114.el9_7.noarch, grub2-pc-2.06-114.el9_7.x86_64, grub2-pc-modules-2.06-114.el9_7.noarch, grub2-tools-2.06-114.el9_7.x86_64, grub2-tools-efi-2.06-114.el9_7.x86_64, grub2-tools-extra-2.06-114.el9_7.x86_64, grub2-tools-minimal-2.06-114.el9_7.x86_64, grubby-8.40-68.el9.x86_64, gsettings-desktop-schemas-40.0-8.el9_7.x86_64, gsm-1.0.19-6.el9.x86_64, gsound-1.0.2-15.el9.x86_64, gspell-1.9.1-3.el9.x86_64, gssproxy-0.8.4-7.el9.x86_64, gstreamer1-1.22.12-3.el9.x86_64, gstreamer1-plugins-bad-free-1.22.12-4.el9_6.x86_64, gstreamer1-plugins-bad-free-libs-1.22.12-4.el9_6.x86_64, gstreamer1-plugins-base-1.22.12-4.el9.x86_64, gstreamer1-plugins-good-1.22.12-4.el9.x86_64, gstreamer1-plugins-good-gtk-1.22.12-4.el9.x86_64, gstreamer1-plugins-ugly-free-1.22.12-3.el9.x86_64, gtk-update-icon-cache-3.24.31-8.el9.x86_64, gtk3-3.24.31-8.el9.x86_64, gtk4-4.12.3-2.el9.x86_64, gtkmm30-3.24.5-1.el9.x86_64, gtksourceview4-4.8.1-5.el9.x86_64, gutenprint-5.3.4-4.el9.x86_64, gutenprint-cups-5.3.4-4.el9.x86_64, gutenprint-doc-5.3.4-4.el9.x86_64, gutenprint-libs-5.3.4-4.el9.x86_64, gvfs-1.48.1-6.el9.x86_64, gvfs-client-1.48.1-6.el9.x86_64, gvfs-fuse-1.48.1-6.el9.x86_64, gvfs-goa-1.48.1-6.el9.x86_64, gvfs-gphoto2-1.48.1-6.el9.x86_64, gvfs-mtp-1.48.1-6.el9.x86_64, gvfs-smb-1.48.1-6.el9.x86_64, gzip-1.12-1.el9.x86_64, harfbuzz-2.7.4-10.el9.x86_64, harfbuzz-icu-2.7.4-10.el9.x86_64, hdparm-9.62-2.el9.x86_64, hicolor-icon-theme-0.17-13.el9.noarch, highcontrast-icon-theme-3.28-14.el9.noarch, hostname-3.23-6.el9.x86_64, hplip-common-3.21.2-6.el9.x86_64, hplip-libs-3.21.2-6.el9.x86_64, hunspell-1.7.0-11.el9.x86_64, hunspell-en-US-0.20140811.1-20.el9.noarch, hunspell-es-2.3-10.el9.noarch, hunspell-es-AR-2.3-10.el9.noarch, hunspell-es-BO-2.3-10.el9.noarch, hunspell-es-CL-2.3-10.el9.noarch, hunspell-es-CO-2.3-10.el9.noarch, hunspell-es-CR-2.3-10.el9.noarch, hunspell-es-CU-2.3-10.el9.noarch, hunspell-es-DO-2.3-10.el9.noarch, hunspell-es-EC-2.3-10.el9.noarch, hunspell-es-ES-2.3-10.el9.noarch, hunspell-es-GT-2.3-10.el9.noarch, hunspell-es-HN-2.3-10.el9.noarch, hunspell-es-MX-2.3-10.el9.noarch, hunspell-es-NI-2.3-10.el9.noarch, hunspell-es-PA-2.3-10.el9.noarch, hunspell-es-PE-2.3-10.el9.noarch, hunspell-es-PR-2.3-10.el9.noarch, hunspell-es-PY-2.3-10.el9.noarch, hunspell-es-SV-2.3-10.el9.noarch, hunspell-es-US-2.3-10.el9.noarch, hunspell-es-UY-2.3-10.el9.noarch, hunspell-es-VE-2.3-10.el9.noarch, hunspell-filesystem-1.7.0-11.el9.x86_64, hwdata-0.348-9.20.el9.noarch, hyperv-daemons-0-0.44.20190303git.el9.x86_64, hyperv-daemons-license-0-0.44.20190303git.el9.noarch, hypervfcopyd-0-0.44.20190303git.el9.x86_64, hypervkvpd-0-0.44.20190303git.el9.x86_64, hypervvssd-0-0.44.20190303git.el9.x86_64, hyphen-2.8.8-17.el9.x86_64, hyphen-es-2.3-11.el9.noarch, ibus-1.5.25-6.el9.x86_64, ibus-gtk3-1.5.25-6.el9.x86_64, ibus-libs-1.5.25-6.el9.x86_64, ibus-setup-1.5.25-6.el9.noarch, iio-sensor-proxy-3.3-1.el9.x86_64, ima-evm-utils-1.6.2-2.el9.x86_64, info-6.7-15.el9.x86_64, inih-49-6.el9.x86_64, initscripts-10.11.8-4.el9.x86_64, initscripts-rename-device-10.11.8-4.el9.x86_64, initscripts-service-10.11.8-4.el9.noarch, insights-client-3.2.8-1.el9.noarch, iproute-6.14.0-2.el9.x86_64, iproute-tc-6.14.0-2.el9.x86_64, iprutils-2.4.19-5.el9.x86_64, ipset-7.11-11.el9_5.x86_64, ipset-libs-7.11-11.el9_5.x86_64, iptables-libs-1.8.10-11.el9_5.x86_64, iptables-nft-1.8.10-11.el9_5.x86_64, iputils-20210202-15.el9_7.x86_64, irqbalance-1.9.4-4.el9.x86_64, iscsi-initiator-utils-6.2.1.11-0.git4b3e853.el9.x86_64, iscsi-initiator-utils-iscsiuio-6.2.1.11-0.git4b3e853.el9.x86_64, isns-utils-libs-0.101-4.el9.x86_64, iso-codes-4.6.0-3.el9.noarch, itstool-2.0.6-7.el9.noarch, iw-6.9-1.el9.x86_64, iwl100-firmware-39.31.5.1-155.1.el9_7.noarch, iwl1000-firmware-39.31.5.1-155.1.el9_7.noarch, iwl105-firmware-18.168.6.1-155.1.el9_7.noarch, iwl135-firmware-18.168.6.1-155.1.el9_7.noarch, iwl2000-firmware-18.168.6.1-155.1.el9_7.noarch, iwl2030-firmware-18.168.6.1-155.1.el9_7.noarch, iwl3160-firmware-25.30.13.0-155.1.el9_7.noarch, iwl5000-firmware-8.83.5.1_1-155.1.el9_7.noarch, iwl5150-firmware-8.24.2.2-155.1.el9_7.noarch, iwl6000g2a-firmware-18.168.6.1-155.1.el9_7.noarch, iwl6000g2b-firmware-18.168.6.1-155.1.el9_7.noarch, iwl6050-firmware-41.28.5.1-155.1.el9_7.noarch, iwl7260-firmware-25.30.13.0-155.1.el9_7.noarch, jansson-2.14-1.el9.x86_64, jbig2dec-libs-0.19-7.el9.x86_64, jbigkit-libs-2.1-23.el9.x86_64, jomolhari-fonts-0.003-34.el9.noarch, jose-14-1.el9.x86_64, jq-1.6-19.el9.x86_64, json-c-0.14-11.el9.x86_64, json-glib-1.6.6-1.el9.x86_64, julietaula-montserrat-fonts-7.210-6.el9.noarch, kbd-2.4.0-11.el9.x86_64, kbd-legacy-2.4.0-11.el9.noarch, kbd-misc-2.4.0-11.el9.noarch, kernel-5.14.0-570.46.1.el9_6.x86_64, kernel-5.14.0-611.24.1.el9_7.x86_64, kernel-5.14.0-611.9.1.el9_7.x86_64, kernel-core-5.14.0-570.46.1.el9_6.x86_64, kernel-core-5.14.0-611.24.1.el9_7.x86_64, kernel-core-5.14.0-611.9.1.el9_7.x86_64, kernel-headers-5.14.0-611.24.1.el9_7.x86_64, kernel-modules-5.14.0-570.46.1.el9_6.x86_64, kernel-modules-5.14.0-611.24.1.el9_7.x86_64, kernel-modules-5.14.0-611.9.1.el9_7.x86_64, kernel-modules-core-5.14.0-570.46.1.el9_6.x86_64, kernel-modules-core-5.14.0-611.24.1.el9_7.x86_64, kernel-modules-core-5.14.0-611.9.1.el9_7.x86_64, kernel-srpm-macros-1.0-14.el9.noarch, kernel-tools-5.14.0-611.24.1.el9_7.x86_64, kernel-tools-libs-5.14.0-611.24.1.el9_7.x86_64, kexec-tools-2.0.29-10.el9.x86_64, keyutils-1.6.3-1.el9.x86_64, keyutils-libs-1.6.3-1.el9.x86_64, khmer-os-system-fonts-5.0-36.el9.noarch, kmod-28-11.el9.x86_64, kmod-kvdo-8.2.6.3-175.el9_7.x86_64, kmod-libs-28-11.el9.x86_64, kpartx-0.8.7-39.el9.x86_64, kpatch-0.9.7-10.el9.noarch, kpatch-dnf-0.9.7_0.5-10.el9.noarch, krb5-libs-1.21.1-8.el9_6.x86_64, krb5-pkinit-1.21.1-8.el9_6.x86_64, krb5-workstation-1.21.1-8.el9_6.x86_64, ksh-1.0.6-14.el9.x86_64, lame-libs-3.100-12.el9.x86_64, langpacks-core-es-3.0-16.el9.noarch, langpacks-core-font-en-3.0-16.el9.noarch, langpacks-core-font-es-3.0-16.el9.noarch, langpacks-es-3.0-16.el9.noarch, lcms2-2.12-3.el9.x86_64, ledmon-1.1.0-3.el9.x86_64, ledmon-libs-1.1.0-3.el9.x86_64, less-590-6.el9.x86_64, libICE-1.0.10-8.el9.x86_64, libSM-1.2.3-10.el9.x86_64, libX11-1.7.0-11.el9.x86_64, libX11-common-1.7.0-11.el9.noarch, libX11-xcb-1.7.0-11.el9.x86_64, libXau-1.0.9-8.el9.x86_64, libXcomposite-0.4.5-7.el9.x86_64, libXcursor-1.2.0-7.el9.x86_64, libXdamage-1.1.5-7.el9.x86_64, libXdmcp-1.1.3-8.el9.x86_64, libXext-1.3.4-8.el9.x86_64, libXfixes-5.0.3-16.el9.x86_64, libXfont2-2.0.3-12.el9.x86_64, libXft-2.3.3-8.el9.x86_64, libXi-1.7.10-8.el9.x86_64, libXinerama-1.1.4-10.el9.x86_64, libXmu-1.1.3-8.el9.x86_64, libXpm-3.5.13-10.el9.x86_64, libXrandr-1.5.2-8.el9.x86_64, libXrender-0.9.10-16.el9.x86_64, libXres-1.2.0-14.el9.x86_64, libXt-1.2.0-6.el9.x86_64, libXtst-1.2.3-16.el9.x86_64, libXv-1.0.11-16.el9.x86_64, libXxf86dga-1.1.5-8.el9.x86_64, libXxf86vm-1.1.4-18.el9.x86_64, liba52-0.7.4-42.el9.x86_64, libacl-2.3.1-4.el9.x86_64, libadwaita-1.4.2-2.el9.x86_64, libaio-0.3.111-13.el9.x86_64, libaio-devel-0.3.111-13.el9.x86_64, libao-1.2.0-22.el9.x86_64, libappstream-glib-0.7.18-5.el9_4.x86_64, libarchive-3.5.3-6.el9_6.x86_64, libassuan-2.5.5-3.el9.x86_64, libasyncns-0.8-22.el9.x86_64, libatasmart-0.19-22.el9.x86_64, libatomic-11.5.0-11.el9.x86_64, libattr-2.5.1-3.el9.x86_64, libbabeltrace-1.5.8-10.el9.x86_64, libbasicobjects-0.1.1-53.el9.x86_64, libblkid-2.37.4-21.el9.x86_64, libblockdev-2.28-14.el9_6.x86_64, libblockdev-crypto-2.28-14.el9_6.x86_64, libblockdev-fs-2.28-14.el9_6.x86_64, libblockdev-loop-2.28-14.el9_6.x86_64, libblockdev-lvm-2.28-14.el9_6.x86_64, libblockdev-mdraid-2.28-14.el9_6.x86_64, libblockdev-part-2.28-14.el9_6.x86_64, libblockdev-swap-2.28-14.el9_6.x86_64, libblockdev-utils-2.28-14.el9_6.x86_64, libbpf-1.5.0-2.el9.x86_64, libbrotli-1.0.9-7.el9_5.x86_64, libbytesize-2.5-3.el9.x86_64, libcanberra-0.30-27.el9.x86_64, libcanberra-gtk3-0.30-27.el9.x86_64, libcap-2.48-10.el9.x86_64, libcap-ng-0.8.2-7.el9.x86_64, libcap-ng-python3-0.8.2-7.el9.x86_64, libcbor-0.7.0-5.el9.x86_64, libcdio-2.1.0-6.el9.x86_64, libcdio-paranoia-10.2+2.0.1-6.el9.x86_64, libcollection-0.7.0-53.el9.x86_64, libcom_err-1.46.5-8.el9.x86_64, libcomps-0.1.18-1.el9.x86_64, libconfig-1.7.2-9.el9.x86_64, libcurl-7.76.1-34.el9.x86_64, libdaemon-0.14-23.el9.x86_64, libdatrie-0.2.13-4.el9.x86_64, libdb-5.3.28-57.el9_6.x86_64, libdecor-0.1.1-1.el9.x86_64, libdhash-0.5.0-53.el9.x86_64, libdmx-1.1.4-12.el9.x86_64, libdnf-0.69.0-16.el9.x86_64, libdnf-plugin-subscription-manager-1.29.47.1-1.el9_7.x86_64, libdrm-2.4.123-2.el9.x86_64, libdvdnav-6.1.0-4.el9.x86_64, libdvdread-6.1.1-4.el9.x86_64, libeconf-0.4.1-4.el9.x86_64, libedit-3.1-38.20210216cvs.el9.x86_64, libepoxy-1.5.5-4.el9.x86_64, liberation-fonts-common-2.1.3-5.el9.noarch, liberation-mono-fonts-2.1.3-5.el9.noarch, liberation-sans-fonts-2.1.3-5.el9.noarch, liberation-serif-fonts-2.1.3-5.el9.noarch, libertas-sd8787-firmware-20251111-155.1.el9_7.noarch, libestr-0.1.11-4.el9.x86_64, libev-4.33-6.el9.x86_64, libevdev-1.11.0-3.el9.x86_64, libevent-2.1.12-8.el9_4.x86_64, libexif-0.6.22-6.el9.x86_64, libfastjson-0.99.9-5.el9.x86_64, libfdisk-2.37.4-21.el9.x86_64, libffi-3.4.2-8.el9.x86_64, libfido2-1.13.0-2.el9.x86_64, libfontenc-1.1.3-17.el9.x86_64, libfprint-1.94.6-1.el9.x86_64, libgcab1-1.4-6.el9.x86_64, libgcc-11.5.0-11.el9.x86_64, libgcrypt-1.10.0-11.el9.x86_64, libgdata-0.18.1-4.el9.x86_64, libgee-0.20.4-3.el9.x86_64, libgexiv2-0.14.3-1.el9.x86_64, libglvnd-1.3.4-1.el9.x86_64, libglvnd-egl-1.3.4-1.el9.x86_64, libglvnd-gles-1.3.4-1.el9.x86_64, libglvnd-glx-1.3.4-1.el9.x86_64, libgnomekbd-3.26.1-7.el9.x86_64, libgomp-11.5.0-11.el9.x86_64, libgpg-error-1.42-5.el9.x86_64, libgphoto2-2.5.27-3.el9.x86_64, libgs-9.54.0-19.el9_6.x86_64, libgsf-1.14.47-5.el9.x86_64, libgtop2-2.40.0-9.el9.x86_64, libgudev-237-1.el9.x86_64, libgusb-0.3.8-2.el9.x86_64, libgweather-40.0-3.el9.x86_64, libgxps-0.3.2-3.el9.x86_64, libhandy-1.2.3-1.el9.x86_64, libibverbs-57.0-2.el9.x86_64, libical-3.0.14-1.el9.x86_64, libical-glib-3.0.14-1.el9.x86_64, libicu-67.1-10.el9_6.x86_64, libidn2-2.3.0-7.el9.x86_64, libieee1284-0.2.11-37.el9.x86_64, libijs-0.35-15.el9.x86_64, libini_config-1.3.1-53.el9.x86_64, libinput-1.19.3-7.el9_6.x86_64, libipa_hbac-2.9.7-4.el9_7.1.x86_64, libiptcdata-1.0.5-10.el9.x86_64, libjcat-0.1.6-3.el9.x86_64, libjose-14-1.el9.x86_64, libjpeg-turbo-2.0.90-7.el9.x86_64, libkadm5-1.21.1-8.el9_6.x86_64, libkcapi-1.4.0-2.el9.x86_64, libkcapi-hmaccalc-1.4.0-2.el9.x86_64, libksba-1.5.1-7.el9.x86_64, libldac-2.0.2.3-10.el9.x86_64, libldb-4.22.4-6.el9_7.x86_64, liblouis-3.16.1-5.el9.x86_64, libluksmeta-9-12.el9.x86_64, libmaxminddb-1.5.2-4.el9.x86_64, libmbim-1.32.0-1.el9.x86_64, libmbim-utils-1.32.0-1.el9.x86_64, libmediaart-1.9.5-2.el9.x86_64, libmnl-1.0.4-16.el9_4.x86_64, libmodulemd-2.13.0-2.el9.x86_64, libmount-2.37.4-21.el9.x86_64, libmpc-1.2.1-4.el9.x86_64, libmpeg2-0.5.1-24.el9.x86_64, libmspack-0.10.1-0.7.alpha.el9.x86_64, libmtp-1.1.18-6.el9.x86_64, libndp-1.9-1.el9.x86_64, libnet-1.2-7.el9.x86_64, libnetapi-4.22.4-6.el9_7.x86_64, libnetfilter_conntrack-1.0.9-1.el9.x86_64, libnfnetlink-1.0.1-23.el9_5.x86_64, libnfsidmap-2.5.4-38.el9.x86_64, libnftnl-1.2.6-4.el9_4.x86_64, libnghttp2-1.43.0-6.el9.x86_64, libnl3-3.11.0-1.el9.x86_64, libnl3-cli-3.11.0-1.el9.x86_64, libnma-1.8.40-1.el9.x86_64, libnotify-0.7.9-8.el9.x86_64, libnsl-2.34-231.el9_7.2.x86_64, libnsl2-2.0.0-1.el9.x86_64, libnvme-1.13-1.el9.x86_64, libogg-1.3.4-6.el9.x86_64, libosinfo-1.10.0-1.el9.x86_64, libpaper-1.1.28-4.el9.x86_64, libpath_utils-0.2.1-53.el9.x86_64, libpcap-1.10.0-4.el9.x86_64, libpciaccess-0.16-7.el9.x86_64, libpeas-1.30.0-4.el9.x86_64, libpeas-gtk-1.30.0-4.el9.x86_64, libpeas-loader-python3-1.30.0-4.el9.x86_64, libpipeline-1.5.3-4.el9.x86_64, libpkgconf-1.7.3-10.el9.x86_64, libpng-1.6.37-12.el9_7.1.x86_64, libproxy-0.4.15-35.el9.x86_64, libproxy-webkitgtk4-0.4.15-35.el9.x86_64, libpsl-0.21.1-5.el9.x86_64, libpwquality-1.4.4-8.el9.x86_64, libqmi-1.32.2-1.el9.x86_64, libqmi-utils-1.32.2-1.el9.x86_64, libqrtr-glib-1.2.2-1.el9.x86_64, libref_array-0.1.5-53.el9.x86_64, librelp-1.10.0-5.el9.x86_64, librepo-1.14.5-3.el9.x86_64, libreport-filesystem-2.15.2-6.el9.noarch, librhsm-0.0.3-9.el9.x86_64, librsvg2-2.50.7-3.el9.x86_64, librsvg2-tools-2.50.7-3.el9.x86_64, libsamplerate-0.1.9-10.el9.x86_64, libsane-airscan-0.99.24-3.el9.x86_64, libsane-hpaio-3.21.2-6.el9.x86_64, libsbc-1.4-9.el9.x86_64, libseccomp-2.5.2-2.el9.x86_64, libsecret-0.20.4-4.el9.x86_64, libselinux-3.6-3.el9.x86_64, libselinux-utils-3.6-3.el9.x86_64, libsemanage-3.6-5.el9_6.x86_64, libsepol-3.6-3.el9.x86_64, libshout-2.4.3-7.el9.x86_64, libsigc++20-2.10.7-2.el9.x86_64, libsigsegv-2.13-4.el9.x86_64, libslirp-4.4.0-8.el9.x86_64, libsmartcols-2.37.4-21.el9.x86_64, libsmbclient-4.22.4-6.el9_7.x86_64, libsmbios-2.4.3-4.el9.x86_64, libsndfile-1.0.31-9.el9.x86_64, libsolv-0.7.24-3.el9.x86_64, libsoup-2.72.0-12.el9_7.3.x86_64, libspectre-0.2.9-6.el9.x86_64, libsrtp-2.3.0-8.el9.x86_64, libss-1.46.5-8.el9.x86_64, libssh-0.10.4-17.el9_7.x86_64, libssh-config-0.10.4-17.el9_7.noarch, libsss_certmap-2.9.7-4.el9_7.1.x86_64, libsss_idmap-2.9.7-4.el9_7.1.x86_64, libsss_nss_idmap-2.9.7-4.el9_7.1.x86_64, libsss_sudo-2.9.7-4.el9_7.1.x86_64, libstdc++-11.5.0-11.el9.x86_64, libstdc++-devel-11.5.0-11.el9.x86_64, libstemmer-0-18.585svn.el9.x86_64, libstoragemgmt-1.10.1-1.el9.x86_64, libsysfs-2.1.1-11.el9.x86_64, libtalloc-2.4.3-1.el9.x86_64, libtasn1-4.16.0-9.el9.x86_64, libtdb-1.4.13-1.el9.x86_64, libteam-1.31-16.el9_1.x86_64, libtevent-0.16.2-1.el9.x86_64, libthai-0.1.28-8.el9.x86_64, libtheora-1.1.1-31.el9.x86_64, libtiff-4.4.0-15.el9_7.2.x86_64, libtirpc-1.3.3-9.el9.x86_64, libtool-ltdl-2.4.6-46.el9.x86_64, libtraceevent-1.8.4-2.el9.x86_64, libtracker-sparql-3.1.2-3.el9_1.x86_64, libudisks2-2.9.4-12.el9_7.x86_64, libunistring-0.9.10-15.el9.x86_64, liburing-2.5-1.el9.x86_64, libusbx-1.0.26-1.el9.x86_64, libuser-0.63-17.el9.x86_64, libutempter-1.2.1-6.el9.x86_64, libuuid-2.37.4-21.el9.x86_64, libuv-1.42.0-2.el9_4.x86_64, libv4l-1.20.0-5.el9.x86_64, libva-2.22.0-1.el9.x86_64, libverto-0.3.2-3.el9.x86_64, libverto-libev-0.3.2-3.el9.x86_64, libvisual-0.4.0-34.el9.x86_64, libvorbis-1.3.7-5.el9.x86_64, libvpx-1.9.0-9.el9_6.x86_64, libwacom-1.12.1-6.el9_7.x86_64, libwacom-data-1.12.1-6.el9_7.noarch, libwayland-client-1.21.0-1.el9.x86_64, libwayland-cursor-1.21.0-1.el9.x86_64, libwayland-egl-1.21.0-1.el9.x86_64, libwayland-server-1.21.0-1.el9.x86_64, libwbclient-4.22.4-6.el9_7.x86_64, libwebp-1.2.0-8.el9_3.x86_64, libwnck3-40.0-2.el9.x86_64, libwpe-1.10.0-4.el9.x86_64, libxcb-1.13.1-9.el9.x86_64, libxcrypt-4.4.18-3.el9.x86_64, libxcrypt-compat-4.4.18-3.el9.x86_64, libxcrypt-devel-4.4.18-3.el9.x86_64, libxcvt-0.1.2-2.el9.x86_64, libxkbcommon-1.0.3-4.el9.x86_64, libxkbcommon-x11-1.0.3-4.el9.x86_64, libxkbfile-1.1.0-8.el9.x86_64, libxklavier-5.4-20.el9.x86_64, libxml2-2.9.13-14.el9_7.x86_64, libxmlb-0.3.10-1.el9.x86_64, libxshmfence-1.3-10.el9.x86_64, libxslt-1.1.34-13.el9_6.x86_64, libyaml-0.2.5-7.el9.x86_64, libzstd-1.5.5-1.el9.x86_64, linux-firmware-20251111-155.1.el9_7.noarch, linux-firmware-whence-20251111-155.1.el9_7.noarch, llvm-filesystem-20.1.8-3.el9.x86_64, llvm-libs-20.1.8-3.el9.x86_64, lm_sensors-libs-3.6.0-10.el9.x86_64, lmdb-libs-0.9.29-3.el9.x86_64, lockdev-1.0.4-0.38.20111007git.el9_6.x86_64, logrotate-3.18.0-12.el9.x86_64, lohit-assamese-fonts-2.91.5-13.el9.noarch, lohit-bengali-fonts-2.91.5-13.el9.noarch, lohit-devanagari-fonts-2.95.4-14.el9.noarch, lohit-gujarati-fonts-2.92.4-13.el9.noarch, lohit-kannada-fonts-2.5.4-12.el9.noarch, lohit-odia-fonts-2.91.2-13.el9.noarch, lohit-tamil-fonts-2.91.3-13.el9.noarch, lohit-telugu-fonts-2.5.5-12.el9.noarch, low-memory-monitor-2.1-4.el9.x86_64, lshw-B.02.20-2.el9.x86_64, lsof-4.94.0-3.el9.x86_64, lsscsi-0.32-6.el9.x86_64, lua-libs-5.4.4-4.el9.x86_64, lua-srpm-macros-1-6.el9.noarch, luksmeta-9-12.el9.x86_64, lvm2-2.03.32-2.el9_7.1.x86_64, lvm2-libs-2.03.32-2.el9_7.1.x86_64, lz4-libs-1.9.3-5.el9.x86_64, lzo-2.10-7.el9.x86_64, mailcap-2.1.49-5.el9.noarch, make-4.3-8.el9.x86_64, mallard-rng-1.1.0-7.el9.noarch, man-db-2.9.3-9.el9.x86_64, man-pages-6.04-9.el9_7.noarch, man-pages-overrides-9.0.0.0-1.el9.noarch, mcelog-201-1.el9.x86_64, mdadm-4.4-2.el9.x86_64, mesa-dri-drivers-25.0.7-3.el9_7.x86_64, mesa-filesystem-25.0.7-3.el9_7.x86_64, mesa-libEGL-25.0.7-3.el9_7.x86_64, mesa-libGL-25.0.7-3.el9_7.x86_64, mesa-libgbm-25.0.7-3.el9_7.x86_64, mesa-libxatracker-25.0.7-3.el9_7.x86_64, mesa-vulkan-drivers-25.0.7-3.el9_7.x86_64, microcode_ctl-20250812-1.el9.noarch, mlocate-0.26-30.el9.x86_64, mobile-broadband-provider-info-20210805-2.el9.noarch, mozilla-filesystem-1.9-30.el9.x86_64, mpfr-4.1.0-7.el9.x86_64, mpg123-libs-1.32.9-1.el9_5.x86_64, mtdev-1.1.5-22.el9.x86_64, mtr-0.94-6.el9_4.x86_64, mutter-40.9-29.el9_7.x86_64, nano-5.6.1-7.el9.x86_64, nautilus-40.2-15.el9.x86_64, nautilus-extensions-40.2-15.el9.x86_64, ncurses-6.2-12.20210508.el9.x86_64, ncurses-base-6.2-12.20210508.el9.noarch, ncurses-libs-6.2-12.20210508.el9.x86_64, net-snmp-libs-5.9.1-17.el9_7.1.x86_64, net-tools-2.0-0.64.20160912git.el9.x86_64, netavark-1.16.0-1.el9.x86_64, netronome-firmware-20251111-155.1.el9_7.noarch, nettle-3.10.1-1.el9.x86_64, newt-0.52.21-11.el9.x86_64, nfs-utils-2.5.4-38.el9.x86_64, nftables-1.0.9-5.el9_7.x86_64, nm-connection-editor-1.26.0-2.el9.x86_64, nmap-ncat-7.92-3.el9.x86_64, npth-1.6-8.el9.x86_64, nspr-4.36.0-4.el9_4.x86_64, nss-3.112.0-4.el9_4.x86_64, nss-softokn-3.112.0-4.el9_4.x86_64, nss-softokn-freebl-3.112.0-4.el9_4.x86_64, nss-sysinit-3.112.0-4.el9_4.x86_64, nss-util-3.112.0-4.el9_4.x86_64, numactl-libs-2.0.19-3.el9.x86_64, nvme-cli-2.13-1.el9.x86_64, ocaml-srpm-macros-6-6.el9.noarch, oddjob-0.34.7-7.el9.x86_64, oddjob-mkhomedir-0.34.7-7.el9.x86_64, oniguruma-6.9.6-1.el9.6.x86_64, open-vm-tools-13.0.0-1.el9_7.1.x86_64, open-vm-tools-desktop-13.0.0-1.el9_7.1.x86_64, openblas-srpm-macros-2-11.el9.noarch, openjpeg2-2.4.0-8.el9.x86_64, openldap-2.6.8-4.el9.x86_64, openldap-compat-2.6.8-4.el9.x86_64, openssh-8.7p1-47.el9_7.x86_64, openssh-clients-8.7p1-47.el9_7.x86_64, openssh-server-8.7p1-47.el9_7.x86_64, openssl-3.5.1-5.el9_7.x86_64, openssl-fips-provider-3.0.7-8.el9.x86_64, openssl-fips-provider-so-3.0.7-8.el9.x86_64, openssl-libs-3.5.1-5.el9_7.x86_64, opus-1.3.1-10.el9.x86_64, oracle-database-preinstall-19c-1.0-1.el9.x86_64, orc-0.4.31-8.el9.x86_64, orca-40.3-1.el9.noarch, os-prober-1.77-12.el9_5.x86_64, osinfo-db-20250606-1.el9.noarch, osinfo-db-tools-1.10.0-1.el9.x86_64, ostree-2025.6-1.el9_7.x86_64, ostree-libs-2025.6-1.el9_7.x86_64, p11-kit-0.25.3-3.el9_5.x86_64, p11-kit-server-0.25.3-3.el9_5.x86_64, p11-kit-trust-0.25.3-3.el9_5.x86_64, paktype-naskh-basic-fonts-5.0-6.el9.noarch, pam-1.5.1-26.el9_6.x86_64, pango-1.48.7-3.el9.x86_64, pangomm-2.46.1-1.el9.x86_64, paper-2.3-6.el9.x86_64, paps-0.7.1-4.el9.x86_64, parted-3.5-3.el9.x86_64, passt-0^20250512.g8ec1341-4.el9_7.x86_64, passt-selinux-0^20250512.g8ec1341-4.el9_7.noarch, passwd-0.80-12.el9.x86_64, pcaudiolib-1.1-9.el9.x86_64, pciutils-3.7.0-7.el9.x86_64, pciutils-libs-3.7.0-7.el9.x86_64, pcp-conf-6.3.7-5.el9.x86_64, pcp-libs-6.3.7-5.el9.x86_64, pcre-8.44-4.el9.x86_64, pcre2-10.40-6.el9.x86_64, pcre2-syntax-10.40-6.el9.noarch, pcre2-utf32-10.40-6.el9.x86_64, perl-5.32.1-481.1.el9_6.x86_64, perl-Algorithm-Diff-1.2010-4.el9.noarch, perl-Archive-Tar-2.38-6.el9.noarch, perl-Archive-Zip-1.68-6.el9.noarch, perl-Attribute-Handlers-1.01-481.1.el9_6.noarch, perl-AutoLoader-5.74-481.1.el9_6.noarch, perl-AutoSplit-5.74-481.1.el9_6.noarch, perl-B-1.80-481.1.el9_6.x86_64, perl-Benchmark-1.23-481.1.el9_6.noarch, perl-CPAN-2.29-5.el9_6.noarch, perl-CPAN-DistnameInfo-0.12-23.el9.noarch, perl-CPAN-Meta-2.150010-460.el9.noarch, perl-CPAN-Meta-Requirements-2.140-461.el9.noarch, perl-CPAN-Meta-YAML-0.018-461.el9.noarch, perl-Carp-1.50-460.el9.noarch, perl-Class-Struct-0.66-481.1.el9_6.noarch, perl-Compress-Bzip2-2.28-5.el9.x86_64, perl-Compress-Raw-Bzip2-2.101-5.el9.x86_64, perl-Compress-Raw-Lzma-2.101-3.el9.x86_64, perl-Compress-Raw-Zlib-2.101-5.el9.x86_64, perl-Config-Extensions-0.03-481.1.el9_6.noarch, perl-Config-Perl-V-0.33-4.el9.noarch, perl-DBD-SQLite-1.66-5.el9.x86_64, perl-DBI-1.643-9.el9.x86_64, perl-DBM_Filter-0.06-481.1.el9_6.noarch, perl-DB_File-1.855-4.el9.x86_64, perl-Data-Dumper-2.174-462.el9.x86_64, perl-Data-OptList-0.110-17.el9.noarch, perl-Data-Section-0.200007-14.el9.noarch, perl-Devel-PPPort-3.62-4.el9.x86_64, perl-Devel-Peek-1.28-481.1.el9_6.x86_64, perl-Devel-SelfStubber-1.06-481.1.el9_6.noarch, perl-Devel-Size-0.83-10.el9.x86_64, perl-Digest-1.19-4.el9.noarch, perl-Digest-MD5-2.58-4.el9.x86_64, perl-Digest-SHA-6.02-461.el9.x86_64, perl-Digest-SHA1-2.13-34.el9.x86_64, perl-DirHandle-1.05-481.1.el9_6.noarch, perl-Dumpvalue-2.27-481.1.el9_6.noarch, perl-DynaLoader-1.47-481.1.el9_6.x86_64, perl-Encode-3.08-462.el9.x86_64, perl-Encode-Locale-1.05-21.el9.noarch, perl-Encode-devel-3.08-462.el9.x86_64, perl-English-1.11-481.1.el9_6.noarch, perl-Env-1.04-460.el9.noarch, perl-Errno-1.30-481.1.el9_6.x86_64, perl-Exporter-5.74-461.el9.noarch, perl-ExtUtils-CBuilder-0.280236-4.el9.noarch, perl-ExtUtils-Command-7.60-3.el9.noarch, perl-ExtUtils-Constant-0.25-481.1.el9_6.noarch, perl-ExtUtils-Embed-1.35-481.1.el9_6.noarch, perl-ExtUtils-Install-2.20-4.el9.noarch, perl-ExtUtils-MM-Utils-7.60-3.el9.noarch, perl-ExtUtils-MakeMaker-7.60-3.el9.noarch, perl-ExtUtils-Manifest-1.73-4.el9.noarch, perl-ExtUtils-Miniperl-1.09-481.1.el9_6.noarch, perl-ExtUtils-ParseXS-3.40-460.el9.noarch, perl-Fcntl-1.13-481.1.el9_6.x86_64, perl-File-Basename-2.85-481.1.el9_6.noarch, perl-File-Compare-1.100.600-481.1.el9_6.noarch, perl-File-Copy-2.34-481.1.el9_6.noarch, perl-File-DosGlob-1.12-481.1.el9_6.x86_64, perl-File-Fetch-1.00-4.el9.noarch, perl-File-Find-1.37-481.1.el9_6.noarch, perl-File-HomeDir-1.006-4.el9.noarch, perl-File-Path-2.18-4.el9.noarch, perl-File-Temp-0.231.100-4.el9.noarch, perl-File-Which-1.23-10.el9.noarch, perl-File-stat-1.09-481.1.el9_6.noarch, perl-FileCache-1.10-481.1.el9_6.noarch, perl-FileHandle-2.03-481.1.el9_6.noarch, perl-Filter-1.60-4.el9.x86_64, perl-Filter-Simple-0.96-460.el9.noarch, perl-FindBin-1.51-481.1.el9_6.noarch, perl-GDBM_File-1.18-481.1.el9_6.x86_64, perl-Getopt-Long-2.52-4.el9.noarch, perl-Getopt-Std-1.12-481.1.el9_6.noarch, perl-HTTP-Tiny-0.076-462.el9.noarch, perl-Hash-Util-0.23-481.1.el9_6.x86_64, perl-Hash-Util-FieldHash-1.20-481.1.el9_6.x86_64, perl-I18N-Collate-1.02-481.1.el9_6.noarch, perl-I18N-LangTags-0.44-481.1.el9_6.noarch, perl-I18N-Langinfo-0.19-481.1.el9_6.x86_64, perl-IO-1.43-481.1.el9_6.x86_64, perl-IO-Compress-2.102-4.el9.noarch, perl-IO-Compress-Lzma-2.101-4.el9.noarch, perl-IO-Socket-IP-0.41-5.el9.noarch, perl-IO-Socket-SSL-2.073-2.el9.noarch, perl-IO-Zlib-1.11-4.el9.noarch, perl-IPC-Cmd-1.04-461.el9.noarch, perl-IPC-Open3-1.21-481.1.el9_6.noarch, perl-IPC-Run3-0.048-23.el9.noarch, perl-IPC-SysV-2.09-4.el9.x86_64, perl-IPC-System-Simple-1.30-6.el9.noarch, perl-Importer-0.026-4.el9.noarch, perl-JSON-PP-4.06-4.el9.noarch, perl-Locale-Maketext-1.29-461.el9.noarch, perl-Locale-Maketext-Simple-0.21-481.1.el9_6.noarch, perl-MIME-Base64-3.16-4.el9.x86_64, perl-MIME-Charset-1.012.2-15.el9.noarch, perl-MRO-Compat-0.13-15.el9.noarch, perl-Math-BigInt-1.9998.18-460.el9.noarch, perl-Math-BigInt-FastCalc-0.500.900-460.el9.x86_64, perl-Math-BigRat-0.2614-460.el9.noarch, perl-Math-Complex-1.59-481.1.el9_6.noarch, perl-Memoize-1.03-481.1.el9_6.noarch, perl-Module-Build-0.42.31-9.el9.noarch, perl-Module-CoreList-5.20240609-1.el9.noarch, perl-Module-CoreList-tools-5.20240609-1.el9.noarch, perl-Module-Load-0.36-4.el9.noarch, perl-Module-Load-Conditional-0.74-4.el9.noarch, perl-Module-Loaded-0.08-481.1.el9_6.noarch, perl-Module-Metadata-1.000037-460.el9.noarch, perl-Module-Signature-0.88-1.el9.noarch, perl-Mozilla-CA-20200520-6.el9.noarch, perl-NDBM_File-1.15-481.1.el9_6.x86_64, perl-NEXT-0.67-481.1.el9_6.noarch, perl-Net-1.02-481.1.el9_6.noarch, perl-Net-Ping-2.74-5.el9.noarch, perl-Net-SSLeay-1.94-3.el9.x86_64, perl-ODBM_File-1.16-481.1.el9_6.x86_64, perl-Object-HashBase-0.009-7.el9.noarch, perl-Opcode-1.48-481.1.el9_6.x86_64, perl-POSIX-1.94-481.1.el9_6.x86_64, perl-Package-Generator-1.106-23.el9.noarch, perl-Params-Check-0.38-461.el9.noarch, perl-Params-Util-1.102-5.el9.x86_64, perl-PathTools-3.78-461.el9.x86_64, perl-Perl-OSType-1.010-461.el9.noarch, perl-PerlIO-via-QuotedPrint-0.09-4.el9.noarch, perl-Pod-Checker-1.74-4.el9.noarch, perl-Pod-Escapes-1.07-460.el9.noarch, perl-Pod-Functions-1.13-481.1.el9_6.noarch, perl-Pod-Html-1.25-481.1.el9_6.noarch, perl-Pod-Perldoc-3.28.01-461.el9.noarch, perl-Pod-Simple-3.42-4.el9.noarch, perl-Pod-Usage-2.01-4.el9.noarch, perl-Safe-2.41-481.1.el9_6.noarch, perl-Scalar-List-Utils-1.56-462.el9.x86_64, perl-Search-Dict-1.07-481.1.el9_6.noarch, perl-SelectSaver-1.02-481.1.el9_6.noarch, perl-SelfLoader-1.26-481.1.el9_6.noarch, perl-Socket-2.031-4.el9.x86_64, perl-Software-License-0.103014-12.el9.noarch, perl-Storable-3.21-460.el9.x86_64, perl-Sub-Exporter-0.987-27.el9.noarch, perl-Sub-Install-0.928-28.el9.noarch, perl-Symbol-1.08-481.1.el9_6.noarch, perl-Sys-Hostname-1.23-481.1.el9_6.x86_64, perl-Sys-Syslog-0.36-461.el9.x86_64, perl-Term-ANSIColor-5.01-461.el9.noarch, perl-Term-Cap-1.17-460.el9.noarch, perl-Term-Complete-1.403-481.1.el9_6.noarch, perl-Term-ReadLine-1.17-481.1.el9_6.noarch, perl-Term-Size-Any-0.002-35.el9.noarch, perl-Term-Size-Perl-0.031-12.el9.x86_64, perl-Term-Table-0.015-8.el9.noarch, perl-TermReadKey-2.38-11.el9.x86_64, perl-Test-1.31-481.1.el9_6.noarch, perl-Test-Harness-3.42-461.el9.noarch, perl-Test-Simple-1.302183-4.el9.noarch, perl-Text-Abbrev-1.02-481.1.el9_6.noarch, perl-Text-Balanced-2.04-4.el9.noarch, perl-Text-Diff-1.45-13.el9.noarch, perl-Text-Glob-0.11-15.el9.noarch, perl-Text-ParseWords-3.30-460.el9.noarch, perl-Text-Tabs+Wrap-2013.0523-460.el9.noarch, perl-Text-Template-1.59-5.el9.noarch, perl-Thread-3.05-481.1.el9_6.noarch, perl-Thread-Queue-3.14-460.el9.noarch, perl-Thread-Semaphore-2.13-481.1.el9_6.noarch, perl-Tie-4.6-481.1.el9_6.noarch, perl-Tie-File-1.06-481.1.el9_6.noarch, perl-Tie-Memoize-1.1-481.1.el9_6.noarch, perl-Tie-RefHash-1.40-4.el9.noarch, perl-Time-1.03-481.1.el9_6.noarch, perl-Time-HiRes-1.9764-462.el9.x86_64, perl-Time-Local-1.300-7.el9.noarch, perl-Time-Piece-1.3401-481.1.el9_6.x86_64, perl-URI-5.09-3.el9.noarch, perl-Unicode-Collate-1.29-4.el9.x86_64, perl-Unicode-LineBreak-2019.001-11.el9.x86_64, perl-Unicode-Normalize-1.27-461.el9.x86_64, perl-Unicode-UCD-0.75-481.1.el9_6.noarch, perl-User-pwent-1.03-481.1.el9_6.noarch, perl-autodie-2.34-4.el9.noarch, perl-autouse-1.11-481.1.el9_6.noarch, perl-base-2.27-481.1.el9_6.noarch, perl-bignum-0.51-460.el9.noarch, perl-blib-1.07-481.1.el9_6.noarch, perl-constant-1.33-461.el9.noarch, perl-debugger-1.56-481.1.el9_6.noarch, perl-deprecate-0.04-481.1.el9_6.noarch, perl-devel-5.32.1-481.1.el9_6.x86_64, perl-diagnostics-1.37-481.1.el9_6.noarch, perl-doc-5.32.1-481.1.el9_6.noarch, perl-encoding-3.00-462.el9.x86_64, perl-encoding-warnings-0.13-481.1.el9_6.noarch, perl-experimental-0.022-6.el9.noarch, perl-fields-2.27-481.1.el9_6.noarch, perl-filetest-1.03-481.1.el9_6.noarch, perl-if-0.60.800-481.1.el9_6.noarch, perl-inc-latest-0.500-20.el9.noarch, perl-interpreter-5.32.1-481.1.el9_6.x86_64, perl-less-0.03-481.1.el9_6.noarch, perl-lib-0.65-481.1.el9_6.x86_64, perl-libnet-3.13-4.el9.noarch, perl-libnetcfg-5.32.1-481.1.el9_6.noarch, perl-libs-5.32.1-481.1.el9_6.x86_64, perl-local-lib-2.000024-13.el9.noarch, perl-locale-1.09-481.1.el9_6.noarch, perl-macros-5.32.1-481.1.el9_6.noarch, perl-meta-notation-5.32.1-481.1.el9_6.noarch, perl-mro-1.23-481.1.el9_6.x86_64, perl-open-1.12-481.1.el9_6.noarch, perl-overload-1.31-481.1.el9_6.noarch, perl-overloading-0.02-481.1.el9_6.noarch, perl-parent-0.238-460.el9.noarch, perl-perlfaq-5.20210520-1.el9.noarch, perl-ph-5.32.1-481.1.el9_6.x86_64, perl-podlators-4.14-460.el9.noarch, perl-sigtrap-1.09-481.1.el9_6.noarch, perl-sort-2.04-481.1.el9_6.noarch, perl-srpm-macros-1-41.el9.noarch, perl-subs-1.03-481.1.el9_6.noarch, perl-threads-2.25-460.el9.x86_64, perl-threads-shared-1.61-460.el9.x86_64, perl-utils-5.32.1-481.1.el9_6.noarch, perl-vars-1.05-481.1.el9_6.noarch, perl-version-0.99.28-4.el9.x86_64, perl-vmsish-1.04-481.1.el9_6.noarch, pigz-2.8-1.el9.x86_64, pinentry-1.1.1-8.el9.x86_64, pinentry-gnome3-1.1.1-8.el9.x86_64, pinfo-0.6.10-29.el9.x86_64, pipewire-1.0.1-1.el9.x86_64, pipewire-alsa-1.0.1-1.el9.x86_64, pipewire-gstreamer-1.0.1-1.el9.x86_64, pipewire-jack-audio-connection-kit-1.0.1-1.el9.x86_64, pipewire-jack-audio-connection-kit-libs-1.0.1-1.el9.x86_64, pipewire-libs-1.0.1-1.el9.x86_64, pipewire-pulseaudio-1.0.1-1.el9.x86_64, pipewire-utils-1.0.1-1.el9.x86_64, pixman-0.40.0-6.el9_3.x86_64, pkgconf-1.7.3-10.el9.x86_64, pkgconf-m4-1.7.3-10.el9.noarch, pkgconf-pkg-config-1.7.3-10.el9.x86_64, plymouth-0.9.5-7.20210331git1ea1020.el9.x86_64, plymouth-core-libs-0.9.5-7.20210331git1ea1020.el9.x86_64, plymouth-graphics-libs-0.9.5-7.20210331git1ea1020.el9.x86_64, plymouth-plugin-label-0.9.5-7.20210331git1ea1020.el9.x86_64, plymouth-plugin-two-step-0.9.5-7.20210331git1ea1020.el9.x86_64, plymouth-scripts-0.9.5-7.20210331git1ea1020.el9.x86_64, plymouth-system-theme-0.9.5-7.20210331git1ea1020.el9.x86_64, plymouth-theme-spinner-0.9.5-7.20210331git1ea1020.el9.x86_64, pnm2ppa-1.04-52.el9.x86_64, podman-5.6.0-11.el9_7.x86_64, policycoreutils-3.6-3.el9.x86_64, policycoreutils-python-utils-3.6-3.el9.noarch, polkit-0.117-14.el9.x86_64, polkit-libs-0.117-14.el9.x86_64, polkit-pkla-compat-0.1-21.el9.x86_64, poppler-21.01.0-23.el9_7.x86_64, poppler-cpp-21.01.0-23.el9_7.x86_64, poppler-data-0.4.9-9.el9.noarch, poppler-glib-21.01.0-23.el9_7.x86_64, poppler-utils-21.01.0-23.el9_7.x86_64, popt-1.18-8.el9.x86_64, power-profiles-daemon-0.21-1.el9.x86_64, prefixdevname-0.1.0-8.el9.x86_64, procps-ng-3.3.17-14.el9.x86_64, protobuf-c-1.3.3-13.el9.x86_64, psacct-6.6.4-12.el9.x86_64, psmisc-23.4-3.el9.x86_64, psutils-2.07-1.el9.noarch, pt-sans-fonts-20141121-23.el9.noarch, publicsuffix-list-dafsa-20210518-3.el9.noarch, pulseaudio-libs-15.0-3.el9.x86_64, pulseaudio-libs-glib2-15.0-3.el9.x86_64, pulseaudio-utils-15.0-3.el9.x86_64, pyproject-srpm-macros-1.16.2-1.el9.noarch, python-srpm-macros-3.9-54.el9.noarch, python-unversioned-command-3.9.25-2.el9_7.noarch, python3-3.9.25-2.el9_7.x86_64, python3-audit-3.1.5-7.el9.x86_64, python3-awscrt-0.27.2-2.el9_7.x86_64, python3-brlapi-0.8.2-4.el9.x86_64, python3-cairo-1.20.1-1.el9.x86_64, python3-cffi-1.14.5-5.el9.x86_64, python3-chardet-4.0.0-5.el9.noarch, python3-cloud-what-1.29.47.1-1.el9_7.x86_64, python3-colorama-0.4.6-3.el9.noarch, python3-cryptography-36.0.1-5.el9_6.x86_64, python3-cups-2.0.1-10.el9.x86_64, python3-dasbus-1.5-1.el9.noarch, python3-dateutil-2.9.0.post0-1.el9_7.noarch, python3-dbus-1.2.18-2.el9.x86_64, python3-decorator-4.4.2-6.el9.noarch, python3-distro-1.5.0-7.el9.noarch, python3-dnf-4.14.0-31.el9.noarch, python3-dnf-plugins-core-4.3.0-24.el9_7.noarch, python3-docutils-0.16-6.el9.noarch, python3-file-magic-5.39-16.el9.noarch, python3-firewall-1.3.4-15.el9_6.noarch, python3-gobject-3.40.1-6.el9.x86_64, python3-gobject-base-3.40.1-6.el9.x86_64, python3-gobject-base-noarch-3.40.1-6.el9.noarch, python3-gpg-1.15.1-6.el9.x86_64, python3-hawkey-0.69.0-16.el9.x86_64, python3-idna-2.10-7.el9_4.1.noarch, python3-iniparse-0.4-45.el9.noarch, python3-inotify-0.9.6-25.el9.noarch, python3-jmespath-1.0.1-1.el9_7.noarch, python3-libcomps-0.1.18-1.el9.x86_64, python3-libdnf-0.69.0-16.el9.x86_64, python3-librepo-1.14.5-3.el9.x86_64, python3-libs-3.9.25-2.el9_7.x86_64, python3-libselinux-3.6-3.el9.x86_64, python3-libsemanage-3.6-5.el9_6.x86_64, python3-libstoragemgmt-1.10.1-1.el9.x86_64, python3-libxml2-2.9.13-14.el9_7.x86_64, python3-linux-procfs-0.7.3-1.el9.noarch, python3-louis-3.16.1-5.el9.noarch, python3-lxml-4.6.5-3.el9.x86_64, python3-nftables-1.0.9-5.el9_7.x86_64, python3-perf-5.14.0-611.24.1.el9_7.x86_64, python3-pexpect-4.8.0-7.el9.noarch, python3-pip-wheel-21.3.1-1.el9.noarch, python3-ply-3.11-14.el9.noarch, python3-policycoreutils-3.6-3.el9.noarch, python3-prompt-toolkit-3.0.38-4.el9.noarch, python3-psutil-5.8.0-12.el9.x86_64, python3-ptyprocess-0.6.0-12.el9.noarch, python3-pyatspi-2.38.1-3.el9.noarch, python3-pycparser-2.20-6.el9.noarch, python3-pycurl-7.43.0.6-8.el9.x86_64, python3-pygments-2.7.4-4.el9.noarch, python3-pyparsing-2.4.7-9.el9.noarch, python3-pysocks-1.7.1-12.el9.noarch, python3-pyudev-0.22.0-6.el9.noarch, python3-pyyaml-5.4.1-6.el9.x86_64, python3-requests-2.25.1-10.el9_6.noarch, python3-rpm-4.16.1.3-39.el9.x86_64, python3-ruamel-yaml-0.16.6-7.el9.1.x86_64, python3-ruamel-yaml-clib-0.2.7-3.el9.x86_64, python3-setools-4.4.4-1.el9.x86_64, python3-setuptools-53.0.0-15.el9.noarch, python3-setuptools-wheel-53.0.0-15.el9.noarch, python3-six-1.15.0-9.el9.noarch, python3-speechd-0.10.2-4.el9.x86_64, python3-subscription-manager-rhsm-1.29.47.1-1.el9_7.x86_64, python3-systemd-234-19.el9.x86_64, python3-tracer-1.1-2.el9.noarch, python3-urllib3-1.26.5-6.el9.noarch, python3-wcwidth-0.2.5-8.el9.noarch, qemu-guest-agent-9.1.0-29.el9_7.3.x86_64, qpdf-libs-10.3.1-7.el9.x86_64, qt5-srpm-macros-5.15.9-1.el9.noarch, quota-4.09-4.el9.x86_64, quota-nls-4.09-4.el9.noarch, rasdaemon-0.6.7-18.el9.x86_64, readline-8.1-4.el9.x86_64, realmd-0.17.1-2.el9.x86_64, redhat-backgrounds-90.5-1.el9_6.1.noarch, redhat-indexhtml-9-4.el9_2.noarch, redhat-logos-90.5-1.el9_6.1.x86_64, redhat-release-9.7-0.7.el9.x86_64, redhat-release-eula-9.7-0.7.el9.x86_64, redhat-rpm-config-210-1.el9.noarch, rest-0.8.1-11.el9.x86_64, rhc-0.2.7-1.el9_6.x86_64, rhsm-icons-6-2.el9.noarch, rootfiles-8.1-35.el9.noarch, rpcbind-1.2.6-7.el9.x86_64, rpm-4.16.1.3-39.el9.x86_64, rpm-build-libs-4.16.1.3-39.el9.x86_64, rpm-libs-4.16.1.3-39.el9.x86_64, rpm-plugin-audit-4.16.1.3-39.el9.x86_64, rpm-plugin-selinux-4.16.1.3-39.el9.x86_64, rpm-plugin-systemd-inhibit-4.16.1.3-39.el9.x86_64, rpm-sign-libs-4.16.1.3-39.el9.x86_64, rsync-3.2.5-3.el9.x86_64, rsyslog-8.2506.0-2.el9.x86_64, rsyslog-gnutls-8.2506.0-2.el9.x86_64, rsyslog-gssapi-8.2506.0-2.el9.x86_64, rsyslog-logrotate-8.2506.0-2.el9.x86_64, rsyslog-relp-8.2506.0-2.el9.x86_64, rtkit-0.11-29.el9.x86_64, rust-srpm-macros-17-4.el9.noarch, samba-client-libs-4.22.4-6.el9_7.x86_64, samba-common-4.22.4-6.el9_7.noarch, samba-common-libs-4.22.4-6.el9_7.x86_64, samba-common-tools-4.22.4-6.el9_7.x86_64, samba-ldb-ldap-modules-4.22.4-6.el9_7.x86_64, samba-libs-4.22.4-6.el9_7.x86_64, sane-airscan-0.99.24-3.el9.x86_64, sane-backends-1.0.32-7.el9.x86_64, sane-backends-drivers-cameras-1.0.32-7.el9.x86_64, sane-backends-drivers-scanners-1.0.32-7.el9.x86_64, sane-backends-libs-1.0.32-7.el9.x86_64, sed-4.8-9.el9.x86_64, selinux-policy-38.1.65-1.el9.noarch, selinux-policy-targeted-38.1.65-1.el9.noarch, setroubleshoot-plugins-3.3.14-4.el9.noarch, setroubleshoot-server-3.3.35-2.el9.x86_64, setup-2.13.7-10.el9.noarch, setxkbmap-1.3.2-5.el9.x86_64, sg3_utils-1.47-10.el9.x86_64, sg3_utils-libs-1.47-10.el9.x86_64, shadow-utils-4.9-15.el9.x86_64, shadow-utils-subid-4.9-15.el9.x86_64, shared-mime-info-2.1-5.el9.x86_64, sil-abyssinica-fonts-1.200-23.el9.noarch, sil-nuosu-fonts-2.200-4.el9.noarch, sil-padauk-fonts-3.003-9.el9.noarch, slang-2.3.2-11.el9.x86_64, slirp4netns-1.3.3-1.el9.x86_64, smartmontools-7.2-9.el9.x86_64, smc-meera-fonts-7.0.3-5.el9.noarch, smem-1.5-11.el9.x86_64, snappy-1.1.8-8.el9.x86_64, sombok-2.4.0-16.el9.x86_64, sos-4.10.1-2.el9.noarch, sound-theme-freedesktop-0.8-17.el9.noarch, soundtouch-2.1.1-8.el9.x86_64, speech-dispatcher-0.10.2-4.el9.x86_64, speech-dispatcher-espeak-ng-0.10.2-4.el9.x86_64, speex-1.2.0-11.el9.x86_64, spice-vdagent-0.21.0-5.el9.x86_64, spirv-tools-libs-2025.2-1.el9.x86_64, sqlite-libs-3.34.1-9.el9_7.x86_64, squashfs-tools-4.4-10.git1.el9.x86_64, sscg-3.0.0-10.el9.x86_64, sssd-2.9.7-4.el9_7.1.x86_64, sssd-ad-2.9.7-4.el9_7.1.x86_64, sssd-client-2.9.7-4.el9_7.1.x86_64, sssd-common-2.9.7-4.el9_7.1.x86_64, sssd-common-pac-2.9.7-4.el9_7.1.x86_64, sssd-ipa-2.9.7-4.el9_7.1.x86_64, sssd-kcm-2.9.7-4.el9_7.1.x86_64, sssd-krb5-2.9.7-4.el9_7.1.x86_64, sssd-krb5-common-2.9.7-4.el9_7.1.x86_64, sssd-ldap-2.9.7-4.el9_7.1.x86_64, sssd-nfs-idmap-2.9.7-4.el9_7.1.x86_64, sssd-proxy-2.9.7-4.el9_7.1.x86_64, startup-notification-0.12-23.el9.x86_64, stix-fonts-2.0.2-11.el9.noarch, strace-6.12-1.el9.x86_64, subscription-manager-1.29.47.1-1.el9_7.x86_64, subscription-manager-cockpit-6-2.el9.noarch, subscription-manager-rhsm-certificates-20220623-1.el9.noarch, sudo-1.9.5p2-13.el9.x86_64, sushi-3.38.1-2.el9_4.1.x86_64, switcheroo-control-2.4-4.el9.x86_64, symlinks-1.7-6.el9.x86_64, sysstat-12.5.4-9.el9.x86_64, system-config-printer-libs-1.5.15-4.el9.noarch, system-config-printer-udev-1.5.15-4.el9.x86_64, systemd-252-55.el9_7.7.x86_64, systemd-libs-252-55.el9_7.7.x86_64, systemd-pam-252-55.el9_7.7.x86_64, systemd-rpm-macros-252-55.el9_7.7.noarch, systemd-udev-252-55.el9_7.7.x86_64, systemtap-sdt-devel-5.3-3.el9.x86_64, systemtap-sdt-dtrace-5.3-3.el9.x86_64, taglib-1.12-6.el9.x86_64, tar-1.34-9.el9_7.x86_64, tcl-8.6.10-7.el9.x86_64, tcpdump-4.99.0-9.el9.x86_64, teamd-1.31-16.el9_1.x86_64, telnet-0.17-85.el9.x86_64, texlive-lib-20200406-26.el9_2.x86_64, thai-scalable-fonts-common-0.7.2-5.el9.noarch, thai-scalable-waree-fonts-0.7.2-5.el9.noarch, time-1.9-18.el9.x86_64, totem-3.38.2-2.el9.x86_64, totem-pl-parser-3.26.6-2.el9.x86_64, totem-video-thumbnailer-3.38.2-2.el9.x86_64, tpm2-tools-5.2-6.el9.x86_64, tpm2-tss-3.2.3-1.el9.x86_64, tracer-common-1.1-2.el9.noarch, tracker-3.1.2-3.el9_1.x86_64, tracker-miners-3.1.2-4.el9_3.x86_64, tree-1.8.0-10.el9.x86_64, tuned-2.26.0-1.el9.noarch, twolame-libs-0.3.13-19.el9.x86_64, tzdata-2025c-1.el9.noarch, udisks2-2.9.4-12.el9_7.x86_64, udisks2-iscsi-2.9.4-12.el9_7.x86_64, udisks2-lvm2-2.9.4-12.el9_7.x86_64, unixODBC-2.3.9-4.el9.x86_64, unzip-6.0-59.el9.x86_64, upower-0.99.13-2.el9.x86_64, urw-base35-bookman-fonts-20200910-6.el9.noarch, urw-base35-c059-fonts-20200910-6.el9.noarch, urw-base35-d050000l-fonts-20200910-6.el9.noarch, urw-base35-fonts-20200910-6.el9.noarch, urw-base35-fonts-common-20200910-6.el9.noarch, urw-base35-gothic-fonts-20200910-6.el9.noarch, urw-base35-nimbus-mono-ps-fonts-20200910-6.el9.noarch, urw-base35-nimbus-roman-fonts-20200910-6.el9.noarch, urw-base35-nimbus-sans-fonts-20200910-6.el9.noarch, urw-base35-p052-fonts-20200910-6.el9.noarch, urw-base35-standard-symbols-ps-fonts-20200910-6.el9.noarch, urw-base35-z003-fonts-20200910-6.el9.noarch, usb_modeswitch-2.6.1-4.el9.x86_64, usb_modeswitch-data-20191128-6.el9.noarch, usbutils-017-1.el9.x86_64, usermode-1.114-7.el9.x86_64, userspace-rcu-0.12.1-6.el9.x86_64, util-linux-2.37.4-21.el9.x86_64, util-linux-core-2.37.4-21.el9.x86_64, util-linux-user-2.37.4-21.el9.x86_64, vdo-8.2.2.2-1.el9.x86_64, vim-common-8.2.2637-23.el9_7.x86_64, vim-enhanced-8.2.2637-23.el9_7.x86_64, vim-filesystem-8.2.2637-23.el9_7.noarch, vim-minimal-8.2.2637-23.el9_7.x86_64, virt-what-1.27-2.el9.x86_64, volume_key-libs-0.3.12-16.el9.x86_64, vte-profile-0.64.2-2.el9.x86_64, vte291-0.64.2-2.el9.x86_64, vulkan-loader-1.4.313.0-1.el9.x86_64, wavpack-5.4.0-5.el9.x86_64, webkit2gtk3-2.50.4-1.el9_7.x86_64, webkit2gtk3-jsc-2.50.4-1.el9_7.x86_64, webrtc-audio-processing-0.3.1-8.el9.x86_64, wget-1.21.1-8.el9_4.x86_64, which-2.21-30.el9_6.x86_64, wireless-regdb-2024.01.23-1.el9.noarch, wireplumber-0.4.14-1.el9.x86_64, wireplumber-libs-0.4.14-1.el9.x86_64, woff2-1.0.2-15.el9.x86_64, words-3.0-39.el9.noarch, wpa_supplicant-2.11-2.el9.x86_64, wpebackend-fdo-1.10.0-3.el9.x86_64, xcb-util-0.4.0-19.el9.x86_64, xdg-dbus-proxy-0.1.3-1.el9.x86_64, xdg-desktop-portal-1.12.6-1.el9.x86_64, xdg-desktop-portal-gnome-41.2-3.el9.x86_64, xdg-desktop-portal-gtk-1.12.0-3.el9.x86_64, xdg-user-dirs-0.17-10.el9.x86_64, xdg-user-dirs-gtk-0.10-22.el9.x86_64, xdg-utils-1.1.3-13.el9_6.noarch, xfsdump-3.1.12-4.el9_3.x86_64, xfsprogs-6.4.0-7.el9.x86_64, xkbcomp-1.4.4-4.el9.x86_64, xkeyboard-config-2.33-2.el9.noarch, xml-common-0.6.3-58.el9.noarch, xmlsec1-1.2.29-13.el9.x86_64, xmlsec1-openssl-1.2.29-13.el9.x86_64, xorg-x11-drv-evdev-2.10.6-12.el9.x86_64, xorg-x11-drv-fbdev-0.5.0-11.el9.x86_64, xorg-x11-drv-libinput-1.0.1-4.el9_6.x86_64, xorg-x11-drv-vmware-13.2.1-18.el9.x86_64, xorg-x11-drv-wacom-1.0.0-4.el9_6.x86_64, xorg-x11-drv-wacom-serial-support-1.0.0-4.el9_6.x86_64, xorg-x11-server-Xorg-1.20.11-32.el9_7.x86_64, xorg-x11-server-Xwayland-23.2.7-5.el9_7.x86_64, xorg-x11-server-common-1.20.11-32.el9_7.x86_64, xorg-x11-server-utils-7.7-44.el9.x86_64, xorg-x11-utils-7.5-40.el9.x86_64, xorg-x11-xauth-1.1-10.el9.x86_64, xorg-x11-xinit-1.4.0-11.el9.x86_64, xorg-x11-xinit-session-1.4.0-11.el9.x86_64, xz-5.2.5-8.el9_0.x86_64, xz-libs-5.2.5-8.el9_0.x86_64, yajl-2.1.0-25.el9.x86_64, yelp-40.3-3.el9.x86_64, yelp-libs-40.3-3.el9.x86_64, yelp-tools-40.0-3.el9.noarch, yelp-xsl-40.2-1.el9_6.1.noarch, yum-4.14.0-31.el9.noarch, zabbix-6.0.43-1.el9.x86_64, zabbix-agent-6.0.43-1.el9.x86_64, zabbix-selinux-6.0.43-1.el9.noarch, zenity-3.32.0-8.el9.x86_64, zip-3.0-35.el9.x86_64, zlib-1.2.11-40.el9.x86_64"
+  },
+  {
+    "itemid": "64512",
+    "name": "System description",
+    "key_": "system.uname",
+    "units": "",
+    "lastvalue": "Linux sgcaltiplano 5.14.0-611.24.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Jan 10 05:12:47 EST 2026 x86_64"
+  },
+  {
+    "itemid": "64513",
+    "name": "System uptime",
+    "key_": "system.uptime",
+    "units": "uptime",
+    "lastvalue": "662471"
+  },
+  {
+    "itemid": "64514",
+    "name": "Number of logged in users",
+    "key_": "system.users.num",
+    "units": "",
+    "lastvalue": "1"
+  },
+  {
+    "itemid": "64515",
+    "name": "Checksum of /etc/passwd",
+    "key_": "vfs.file.cksum[/etc/passwd,sha256]",
+    "units": "",
+    "lastvalue": "839bd0c98afe73c3dc392d029a328ee30f39c56f1442319bba7c622e7f3565c2"
+  },
+  {
+    "itemid": "64516",
+    "name": "Available memory",
+    "key_": "vm.memory.size[available]",
+    "units": "B",
+    "lastvalue": "10247852032"
+  },
+  {
+    "itemid": "64517",
+    "name": "Available memory in %",
+    "key_": "vm.memory.size[pavailable]",
+    "units": "%",
+    "lastvalue": "41.114611"
+  },
+  {
+    "itemid": "64518",
+    "name": "Total memory",
+    "key_": "vm.memory.size[total]",
+    "units": "B",
+    "lastvalue": "24927068160"
+  },
+  {
+    "itemid": "64519",
+    "name": "Zabbix agent availability",
+    "key_": "zabbix[host,agent,available]",
+    "units": "",
+    "lastvalue": "1"
+  },
+  {
+    "itemid": "64520",
+    "name": "CPU utilization",
+    "key_": "system.cpu.util",
+    "units": "%",
+    "lastvalue": "60.902633"
+  },
+  {
+    "itemid": "64521",
+    "name": "Memory utilization",
+    "key_": "vm.memory.utilization",
+    "units": "%",
+    "lastvalue": "58.885389"
+  },
+  {
+    "itemid": "65549",
+    "name": "/: Free inodes in %",
+    "key_": "vfs.fs.inode[/,pfree]",
+    "units": "%",
+    "lastvalue": "99.985619"
+  },
+  {
+    "itemid": "67895",
+    "name": "Tamaño rman FULL NUBE",
+    "key_": "tamanormanfull",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65594",
+    "name": "/boot: Total space",
+    "key_": "vfs.fs.size[/boot,total]",
+    "units": "B",
+    "lastvalue": "1006632960"
+  },
+  {
+    "itemid": "67562",
+    "name": "sdi: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdi]",
+    "units": "!ms",
+    "lastvalue": "0.14412886816447645"
+  },
+  {
+    "itemid": "67563",
+    "name": "sdh: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdh]",
+    "units": "!ms",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67564",
+    "name": "sdg: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdg]",
+    "units": "!ms",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67565",
+    "name": "sdf: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdf]",
+    "units": "!ms",
+    "lastvalue": "0.47325102880658426"
+  },
+  {
+    "itemid": "67566",
+    "name": "sde: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sde]",
+    "units": "!ms",
+    "lastvalue": "0.875229357798165"
+  },
+  {
+    "itemid": "67567",
+    "name": "sdd: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdd]",
+    "units": "!ms",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67568",
+    "name": "sdc: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdc]",
+    "units": "!ms",
+    "lastvalue": "0.488742480664566"
+  },
+  {
+    "itemid": "67569",
+    "name": "sdb: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sdb]",
+    "units": "!ms",
+    "lastvalue": "0.8154188624386699"
+  },
+  {
+    "itemid": "67570",
+    "name": "sda: Disk read request avg waiting time (r_await)",
+    "key_": "vfs.dev.read.await[sda]",
+    "units": "!ms",
+    "lastvalue": "0.5"
+  },
+  {
+    "itemid": "67575",
+    "name": "sdi: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdi]",
+    "units": "!ms",
+    "lastvalue": "0.5"
+  },
+  {
+    "itemid": "67576",
+    "name": "sdh: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdh]",
+    "units": "!ms",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67577",
+    "name": "sdg: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdg]",
+    "units": "!ms",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67578",
+    "name": "sdf: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdf]",
+    "units": "!ms",
+    "lastvalue": "0.3768922916304158"
+  },
+  {
+    "itemid": "67579",
+    "name": "sde: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sde]",
+    "units": "!ms",
+    "lastvalue": "1.2345132743362832"
+  },
+  {
+    "itemid": "67580",
+    "name": "sdd: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdd]",
+    "units": "!ms",
+    "lastvalue": "0.34451495920217595"
+  },
+  {
+    "itemid": "67581",
+    "name": "sdc: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdc]",
+    "units": "!ms",
+    "lastvalue": "2.804189435336976"
+  },
+  {
+    "itemid": "67582",
+    "name": "sdb: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sdb]",
+    "units": "!ms",
+    "lastvalue": "2.0480961923847696"
+  },
+  {
+    "itemid": "67583",
+    "name": "sda: Disk write request avg waiting time (w_await)",
+    "key_": "vfs.dev.write.await[sda]",
+    "units": "!ms",
+    "lastvalue": "0.425531914893617"
+  },
+  {
+    "itemid": "67609",
+    "name": "sdj: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdj]",
+    "units": "",
+    "lastvalue": "0.00021666455679804578"
+  },
+  {
+    "itemid": "67610",
+    "name": "sdj: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdj]",
+    "units": "!r/s",
+    "lastvalue": "1.983314019920573"
+  },
+  {
+    "itemid": "67611",
+    "name": "sdj: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdj]",
+    "units": "",
+    "lastvalue": "0.0006999931835013788"
+  },
+  {
+    "itemid": "67612",
+    "name": "sdi: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdi/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67613",
+    "name": "sdi: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdi]",
+    "units": "",
+    "lastvalue": "0.0002666669975692995"
+  },
+  {
+    "itemid": "67614",
+    "name": "sdi: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdi]",
+    "units": "!w/s",
+    "lastvalue": "0.533333995138599"
+  },
+  {
+    "itemid": "67615",
+    "name": "sdi: Disk utilization",
+    "key_": "vfs.dev.util[sdi]",
+    "units": "%",
+    "lastvalue": "0.5916674008568833"
+  },
+  {
+    "itemid": "67616",
+    "name": "sdi: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdi]",
+    "units": "",
+    "lastvalue": "0.005666673698347615"
+  },
+  {
+    "itemid": "67617",
+    "name": "sdi: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdi]",
+    "units": "!r/s",
+    "lastvalue": "39.316715454123596"
+  },
+  {
+    "itemid": "67618",
+    "name": "sdi: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdi]",
+    "units": "",
+    "lastvalue": "0.0059500073832649955"
+  },
+  {
+    "itemid": "67619",
+    "name": "sdh: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdh/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67620",
+    "name": "sdh: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdh]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67621",
+    "name": "sdh: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdh]",
+    "units": "!w/s",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67622",
+    "name": "sdh: Disk utilization",
+    "key_": "vfs.dev.util[sdh]",
+    "units": "%",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67623",
+    "name": "sdh: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdh]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67624",
+    "name": "sdh: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdh]",
+    "units": "!r/s",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67625",
+    "name": "sdh: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdh]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67626",
+    "name": "sdg: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdg/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67627",
+    "name": "sdg: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdg]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67628",
+    "name": "sdg: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdg]",
+    "units": "!w/s",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67629",
+    "name": "sdg: Disk utilization",
+    "key_": "vfs.dev.util[sdg]",
+    "units": "%",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67630",
+    "name": "sdg: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdg]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67631",
+    "name": "sdg: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdg]",
+    "units": "!r/s",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67632",
+    "name": "sdg: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdg]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67633",
+    "name": "sdf: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdf/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67634",
+    "name": "sdf: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdf]",
+    "units": "",
+    "lastvalue": "0.03608702853864255"
+  },
+  {
+    "itemid": "67635",
+    "name": "sdf: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdf]",
+    "units": "!w/s",
+    "lastvalue": "95.74891644117209"
+  },
+  {
+    "itemid": "67636",
+    "name": "sdf: Disk utilization",
+    "key_": "vfs.dev.util[sdf]",
+    "units": "%",
+    "lastvalue": "3.3138088533407224"
+  },
+  {
+    "itemid": "67637",
+    "name": "sdf: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdf]",
+    "units": "",
+    "lastvalue": "0.011412564427040696"
+  },
+  {
+    "itemid": "67638",
+    "name": "sdf: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdf]",
+    "units": "!r/s",
+    "lastvalue": "6.964163402194177"
+  },
+  {
+    "itemid": "67639",
+    "name": "sdf: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdf]",
+    "units": "",
+    "lastvalue": "0.04749959296568325"
+  },
+  {
+    "itemid": "67640",
+    "name": "sde: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sde/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67641",
+    "name": "sde: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sde]",
+    "units": "",
+    "lastvalue": "0.004684627347957917"
+  },
+  {
+    "itemid": "67642",
+    "name": "sde: Disk write rate",
+    "key_": "vfs.dev.write.rate[sde]",
+    "units": "!w/s",
+    "lastvalue": "6.068342899134098"
+  },
+  {
+    "itemid": "67643",
+    "name": "sde: Disk utilization",
+    "key_": "vfs.dev.util[sde]",
+    "units": "%",
+    "lastvalue": "0.2150594049418403"
+  },
+  {
+    "itemid": "67644",
+    "name": "sde: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sde]",
+    "units": "",
+    "lastvalue": "0.001350373007774346"
+  },
+  {
+    "itemid": "67645",
+    "name": "sde: Disk read rate",
+    "key_": "vfs.dev.read.rate[sde]",
+    "units": "!r/s",
+    "lastvalue": "4.784654978163424"
+  },
+  {
+    "itemid": "67646",
+    "name": "sde: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sde]",
+    "units": "",
+    "lastvalue": "0.006051671627433181"
+  },
+  {
+    "itemid": "67647",
+    "name": "sdd: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdd/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67648",
+    "name": "sdd: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdd]",
+    "units": "",
+    "lastvalue": "0.037452743151890885"
+  },
+  {
+    "itemid": "67649",
+    "name": "sdd: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdd]",
+    "units": "!w/s",
+    "lastvalue": "94.82361183404862"
+  },
+  {
+    "itemid": "67650",
+    "name": "sdd: Disk utilization",
+    "key_": "vfs.dev.util[sdd]",
+    "units": "%",
+    "lastvalue": "3.050223407563877"
+  },
+  {
+    "itemid": "67651",
+    "name": "sdd: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdd]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "67652",
+    "name": "sdd: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdd]",
+    "units": "!r/s",
+    "lastvalue": "0.08333943736513326"
+  },
+  {
+    "itemid": "67653",
+    "name": "sdd: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdd]",
+    "units": "",
+    "lastvalue": "0.037469411039363916"
+  },
+  {
+    "itemid": "67654",
+    "name": "sdc: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdc/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67656",
+    "name": "sdc: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdc]",
+    "units": "!w/s",
+    "lastvalue": "35.21882625456961"
+  },
+  {
+    "itemid": "67657",
+    "name": "sdc: Disk utilization",
+    "key_": "vfs.dev.util[sdc]",
+    "units": "%",
+    "lastvalue": "10.715657074804925"
+  },
+  {
+    "itemid": "67658",
+    "name": "sdc: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdc]",
+    "units": "",
+    "lastvalue": "0.23211423304360457"
+  },
+  {
+    "itemid": "67659",
+    "name": "sdc: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdc]",
+    "units": "!r/s",
+    "lastvalue": "304.53534050981614"
+  },
+  {
+    "itemid": "67660",
+    "name": "sdc: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdc]",
+    "units": "",
+    "lastvalue": "0.3146192921823266"
+  },
+  {
+    "itemid": "67661",
+    "name": "sdb: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sdb/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67662",
+    "name": "sdb: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sdb]",
+    "units": "",
+    "lastvalue": "0.02124747700446382"
+  },
+  {
+    "itemid": "67663",
+    "name": "sdb: Disk write rate",
+    "key_": "vfs.dev.write.rate[sdb]",
+    "units": "!w/s",
+    "lastvalue": "12.798480266218204"
+  },
+  {
+    "itemid": "67664",
+    "name": "sdb: Disk utilization",
+    "key_": "vfs.dev.util[sdb]",
+    "units": "%",
+    "lastvalue": "10.848711788161525"
+  },
+  {
+    "itemid": "67665",
+    "name": "sdb: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sdb]",
+    "units": "",
+    "lastvalue": "0.4794597340356302"
+  },
+  {
+    "itemid": "67666",
+    "name": "sdb: Disk read rate",
+    "key_": "vfs.dev.read.rate[sdb]",
+    "units": "!r/s",
+    "lastvalue": "553.1009896299248"
+  },
+  {
+    "itemid": "67667",
+    "name": "sdb: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sdb]",
+    "units": "",
+    "lastvalue": "0.500707211040094"
+  },
+  {
+    "itemid": "67668",
+    "name": "sda: Get stats",
+    "key_": "vfs.file.contents[/sys/block/sda/stat]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "67669",
+    "name": "sda: Disk write time (rate)",
+    "key_": "vfs.dev.write.time.rate[sda]",
+    "units": "",
+    "lastvalue": "0.0003332710768964305"
+  },
+  {
+    "itemid": "67670",
+    "name": "sda: Disk write rate",
+    "key_": "vfs.dev.write.rate[sda]",
+    "units": "!w/s",
+    "lastvalue": "0.7831870307066118"
+  },
+  {
+    "itemid": "67671",
+    "name": "sda: Disk utilization",
+    "key_": "vfs.dev.util[sda]",
+    "units": "%",
+    "lastvalue": "0.016663553844821526"
+  },
+  {
+    "itemid": "67672",
+    "name": "sda: Disk read time (rate)",
+    "key_": "vfs.dev.read.time.rate[sda]",
+    "units": "",
+    "lastvalue": "0.0001333084307585722"
+  },
+  {
+    "itemid": "67673",
+    "name": "sda: Disk read rate",
+    "key_": "vfs.dev.read.rate[sda]",
+    "units": "!r/s",
+    "lastvalue": "0.2666168615171444"
+  },
+  {
+    "itemid": "67674",
+    "name": "sda: Disk average queue size (avgqu-sz)",
+    "key_": "vfs.dev.queue_size[sda]",
+    "units": "",
+    "lastvalue": "0.0004832430614998243"
+  },
+  {
+    "itemid": "70625",
+    "name": "% de uso raiz unidad",
+    "key_": "vfs.fs.uso_raiz",
+    "units": "%",
+    "lastvalue": "10.95916318221831"
+  },
+  {
+    "itemid": "70877",
+    "name": "Commits por segundo",
+    "key_": "db.odbc.get[commits_por_segundo,,\"Driver={$ORACLE.DRIVER};DBQ=//{HOST.CONN}:{$ORACLE.PORT}/{$ORACLE.SERVICE};\"]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "70893",
+    "name": "Oracle: Get Time Waits",
+    "key_": "db.odbc.get[get_time_waits,,\"Driver={$ORACLE.DRIVER};DBQ=//{HOST.CONN}:{$ORACLE.PORT}/{$ORACLE.SERVICE};\"]",
+    "units": "",
+    "lastvalue": ""
+  },
+  {
+    "itemid": "64488",
+    "name": "Interrupts per second",
+    "key_": "system.cpu.intr",
+    "units": "",
+    "lastvalue": "8956.111282468217"
+  },
+  {
+    "itemid": "64489",
+    "name": "Load average (1m avg)",
+    "key_": "system.cpu.load[all,avg1]",
+    "units": "",
+    "lastvalue": "3.51"
+  },
+  {
+    "itemid": "64490",
+    "name": "Load average (15m avg)",
+    "key_": "system.cpu.load[all,avg15]",
+    "units": "",
+    "lastvalue": "3.24"
+  },
+  {
+    "itemid": "64491",
+    "name": "Load average (5m avg)",
+    "key_": "system.cpu.load[all,avg5]",
+    "units": "",
+    "lastvalue": "3.67"
+  },
+  {
+    "itemid": "64492",
+    "name": "Number of CPUs",
+    "key_": "system.cpu.num",
+    "units": "",
+    "lastvalue": "6"
+  },
+  {
+    "itemid": "64493",
+    "name": "Context switches per second",
+    "key_": "system.cpu.switches",
+    "units": "",
+    "lastvalue": "5667.874441290038"
+  },
+  {
+    "itemid": "64494",
+    "name": "CPU guest time",
+    "key_": "system.cpu.util[,guest]",
+    "units": "%",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "64495",
+    "name": "CPU guest nice time",
+    "key_": "system.cpu.util[,guest_nice]",
+    "units": "%",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65531",
+    "name": "Interface ens192: Bits received",
+    "key_": "net.if.in[\"ens192\"]",
+    "units": "bps",
+    "lastvalue": "12944152"
+  },
+  {
+    "itemid": "65532",
+    "name": "Interface ens224: Bits received",
+    "key_": "net.if.in[\"ens224\"]",
+    "units": "bps",
+    "lastvalue": "400"
+  },
+  {
+    "itemid": "65593",
+    "name": "/home: Total space",
+    "key_": "vfs.fs.size[/home,total]",
+    "units": "B",
+    "lastvalue": "21407727616"
+  },
+  {
+    "itemid": "65606",
+    "name": "/discos/disco1: Used space",
+    "key_": "vfs.fs.size[/discos/disco1,used]",
+    "units": "B",
+    "lastvalue": "737893728256"
+  },
+  {
+    "itemid": "65533",
+    "name": "Interface ens192: Inbound packets discarded",
+    "key_": "net.if.in[\"ens192\",dropped]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65534",
+    "name": "Interface ens224: Inbound packets discarded",
+    "key_": "net.if.in[\"ens224\",dropped]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65535",
+    "name": "Interface ens192: Inbound packets with errors",
+    "key_": "net.if.in[\"ens192\",errors]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65536",
+    "name": "Interface ens224: Inbound packets with errors",
+    "key_": "net.if.in[\"ens224\",errors]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65537",
+    "name": "Interface ens192: Bits sent",
+    "key_": "net.if.out[\"ens192\"]",
+    "units": "bps",
+    "lastvalue": "22535416"
+  },
+  {
+    "itemid": "65538",
+    "name": "Interface ens224: Bits sent",
+    "key_": "net.if.out[\"ens224\"]",
+    "units": "bps",
+    "lastvalue": "24"
+  },
+  {
+    "itemid": "65539",
+    "name": "Interface ens192: Outbound packets discarded",
+    "key_": "net.if.out[\"ens192\",dropped]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65540",
+    "name": "Interface ens224: Outbound packets discarded",
+    "key_": "net.if.out[\"ens224\",dropped]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65541",
+    "name": "Interface ens192: Outbound packets with errors",
+    "key_": "net.if.out[\"ens192\",errors]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65542",
+    "name": "Interface ens224: Outbound packets with errors",
+    "key_": "net.if.out[\"ens224\",errors]",
+    "units": "",
+    "lastvalue": "0"
+  },
+  {
+    "itemid": "65543",
+    "name": "Interface ens192: Operational status",
+    "key_": "vfs.file.contents[\"/sys/class/net/ens192/operstate\"]",
+    "units": "",
+    "lastvalue": "6"
+  },
+  {
+    "itemid": "65544",
+    "name": "Interface ens224: Operational status",
+    "key_": "vfs.file.contents[\"/sys/class/net/ens224/operstate\"]",
+    "units": "",
+    "lastvalue": "6"
+  },
+  {
+    "itemid": "65545",
+    "name": "Interface ens192: Speed",
+    "key_": "vfs.file.contents[\"/sys/class/net/ens192/speed\"]",
+    "units": "bps",
+    "lastvalue": "10000000000"
+  },
+  {
+    "itemid": "65546",
+    "name": "Interface ens224: Speed",
+    "key_": "vfs.file.contents[\"/sys/class/net/ens224/speed\"]",
+    "units": "bps",
+    "lastvalue": "10000000000"
+  },
+  {
+    "itemid": "65547",
+    "name": "Interface ens192: Interface type",
+    "key_": "vfs.file.contents[\"/sys/class/net/ens192/type\"]",
+    "units": "",
+    "lastvalue": "1"
+  },
+  {
+    "itemid": "65607",
+    "name": "/discos/redogroup_espejo: Used space",
+    "key_": "vfs.fs.size[/discos/redogroup_espejo,used]",
+    "units": "B",
+    "lastvalue": "2150551552"
+  },
+  {
+    "itemid": "65558",
+    "name": "/discos/disco1: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/disco1,pfree]",
+    "units": "%",
+    "lastvalue": "99.999996"
+  },
+  {
+    "itemid": "65595",
+    "name": "/archives: Total space",
+    "key_": "vfs.fs.size[/archives,total]",
+    "units": "B",
+    "lastvalue": "325275615232"
+  },
+  {
+    "itemid": "65559",
+    "name": "/discos/redogroup_espejo: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/redogroup_espejo,pfree]",
+    "units": "%",
+    "lastvalue": "99.999917"
+  },
+  {
+    "itemid": "65596",
+    "name": "/backup: Total space",
+    "key_": "vfs.fs.size[/backup,total]",
+    "units": "B",
+    "lastvalue": "1209394003968"
+  },
+  {
+    "itemid": "65548",
+    "name": "Interface ens224: Interface type",
+    "key_": "vfs.file.contents[\"/sys/class/net/ens224/type\"]",
+    "units": "",
+    "lastvalue": "1"
+  },
+  {
+    "itemid": "65551",
+    "name": "/discos/control01: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/control01,pfree]",
+    "units": "%",
+    "lastvalue": "99.999886"
+  },
+  {
+    "itemid": "65552",
+    "name": "/discos/control02: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/control02,pfree]",
+    "units": "%",
+    "lastvalue": "99.999857"
+  },
+  {
+    "itemid": "65553",
+    "name": "/discos/oracledata: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/oracledata,pfree]",
+    "units": "%",
+    "lastvalue": "99.999972"
+  },
+  {
+    "itemid": "65554",
+    "name": "/discos/disco2: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/disco2,pfree]",
+    "units": "%",
+    "lastvalue": "99.999986"
+  },
+  {
+    "itemid": "65555",
+    "name": "/discos/redogroup: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/redogroup,pfree]",
+    "units": "%",
+    "lastvalue": "99.999917"
+  },
+  {
+    "itemid": "65556",
+    "name": "/discos/control03: Free inodes in %",
+    "key_": "vfs.fs.inode[/discos/control03,pfree]",
+    "units": "%",
+    "lastvalue": "99.999809"
+  },
+  {
+    "itemid": "65557",
+    "name": "/oracle: Free inodes in %",
+    "key_": "vfs.fs.inode[/oracle,pfree]",
+    "units": "%",
+    "lastvalue": "98.504481"
+  },
+  {
+    "itemid": "65565",
+    "name": "/: Space utilization",
+    "key_": "vfs.fs.size[/,pused]",
+    "units": "%",
+    "lastvalue": "10.959163"
+  },
+  {
+    "itemid": "65567",
+    "name": "/discos/control01: Space utilization",
+    "key_": "vfs.fs.size[/discos/control01,pused]",
+    "units": "%",
+    "lastvalue": "1.810013"
+  },
+  {
+    "itemid": "65568",
+    "name": "/discos/control02: Space utilization",
+    "key_": "vfs.fs.size[/discos/control02,pused]",
+    "units": "%",
+    "lastvalue": "1.907443"
+  },
+  {
+    "itemid": "65569",
+    "name": "/discos/oracledata: Space utilization",
+    "key_": "vfs.fs.size[/discos/oracledata,pused]",
+    "units": "%",
+    "lastvalue": "63.119042"
+  },
+  {
+    "itemid": "65570",
+    "name": "/discos/disco2: Space utilization",
+    "key_": "vfs.fs.size[/discos/disco2,pused]",
+    "units": "%",
+    "lastvalue": "80.484946"
+  },
+  {
+    "itemid": "65571",
+    "name": "/discos/redogroup: Space utilization",
+    "key_": "vfs.fs.size[/discos/redogroup,pused]",
+    "units": "%",
+    "lastvalue": "6.690117"
+  },
+  {
+    "itemid": "65572",
+    "name": "/discos/control03: Space utilization",
+    "key_": "vfs.fs.size[/discos/control03,pused]",
+    "units": "%",
+    "lastvalue": "2.233904"
+  },
+  {
+    "itemid": "65573",
+    "name": "/oracle: Space utilization",
+    "key_": "vfs.fs.size[/oracle,pused]",
+    "units": "%",
+    "lastvalue": "86.60674"
+  },
+  {
+    "itemid": "65574",
+    "name": "/discos/disco1: Space utilization",
+    "key_": "vfs.fs.size[/discos/disco1,pused]",
+    "units": "%",
+    "lastvalue": "44.742545"
+  },
+  {
+    "itemid": "65575",
+    "name": "/discos/redogroup_espejo: Space utilization",
+    "key_": "vfs.fs.size[/discos/redogroup_espejo,pused]",
+    "units": "%",
+    "lastvalue": "6.690347"
+  },
+  {
+    "itemid": "65577",
+    "name": "/home: Space utilization",
+    "key_": "vfs.fs.size[/home,pused]",
+    "units": "%",
+    "lastvalue": "45.549485"
+  },
+  {
+    "itemid": "65578",
+    "name": "/boot: Space utilization",
+    "key_": "vfs.fs.size[/boot,pused]",
+    "units": "%",
+    "lastvalue": "58.795573"
+  },
+  {
+    "itemid": "65579",
+    "name": "/archives: Space utilization",
+    "key_": "vfs.fs.size[/archives,pused]",
+    "units": "%",
+    "lastvalue": "29.456369"
+  },
+  {
+    "itemid": "65580",
+    "name": "/backup: Space utilization",
+    "key_": "vfs.fs.size[/backup,pused]",
+    "units": "%",
+    "lastvalue": "1.401358"
+  },
+  {
+    "itemid": "65581",
+    "name": "/: Total space",
+    "key_": "vfs.fs.size[/,total]",
+    "units": "B",
+    "lastvalue": "42882564096"
+  },
+  {
+    "itemid": "65583",
+    "name": "/discos/control01: Total space",
+    "key_": "vfs.fs.size[/discos/control01,total]",
+    "units": "B",
+    "lastvalue": "10730766336"
+  },
+  {
+    "itemid": "65584",
+    "name": "/discos/control02: Total space",
+    "key_": "vfs.fs.size[/discos/control02,total]",
+    "units": "B",
+    "lastvalue": "8583282688"
+  },
+  {
+    "itemid": "65585",
+    "name": "/discos/oracledata: Total space",
+    "key_": "vfs.fs.size[/discos/oracledata,total]",
+    "units": "B",
+    "lastvalue": "148108214272"
+  },
+  {
+    "itemid": "65586",
+    "name": "/discos/disco2: Total space",
+    "key_": "vfs.fs.size[/discos/disco2,total]",
+    "units": "B",
+    "lastvalue": "484189405184"
+  },
+  {
+    "itemid": "65587",
+    "name": "/discos/redogroup: Total space",
+    "key_": "vfs.fs.size[/discos/redogroup,total]",
+    "units": "B",
+    "lastvalue": "32144097280"
+  },
+  {
+    "itemid": "65588",
+    "name": "/discos/control03: Total space",
+    "key_": "vfs.fs.size[/discos/control03,total]",
+    "units": "B",
+    "lastvalue": "6435799040"
+  },
+  {
+    "itemid": "65589",
+    "name": "/oracle: Total space",
+    "key_": "vfs.fs.size[/oracle,total]",
+    "units": "B",
+    "lastvalue": "53619982336"
+  },
+  {
+    "itemid": "65590",
+    "name": "/discos/disco1: Total space",
+    "key_": "vfs.fs.size[/discos/disco1,total]",
+    "units": "B",
+    "lastvalue": "1649199284224"
+  },
+  {
+    "itemid": "65591",
+    "name": "/discos/redogroup_espejo: Total space",
+    "key_": "vfs.fs.size[/discos/redogroup_espejo,total]",
+    "units": "B",
+    "lastvalue": "32144097280"
+  },
+  {
+    "itemid": "65599",
+    "name": "/discos/control01: Used space",
+    "key_": "vfs.fs.size[/discos/control01,used]",
+    "units": "B",
+    "lastvalue": "194228224"
+  },
+  {
+    "itemid": "65600",
+    "name": "/discos/control02: Used space",
+    "key_": "vfs.fs.size[/discos/control02,used]",
+    "units": "B",
+    "lastvalue": "163721216"
+  },
+  {
+    "itemid": "65601",
+    "name": "/discos/oracledata: Used space",
+    "key_": "vfs.fs.size[/discos/oracledata,used]",
+    "units": "B",
+    "lastvalue": "93484486656"
+  },
+  {
+    "itemid": "65602",
+    "name": "/discos/disco2: Used space",
+    "key_": "vfs.fs.size[/discos/disco2,used]",
+    "units": "B",
+    "lastvalue": "389699579904"
+  },
+  {
+    "itemid": "65603",
+    "name": "/discos/redogroup: Used space",
+    "key_": "vfs.fs.size[/discos/redogroup,used]",
+    "units": "B",
+    "lastvalue": "2150477824"
+  },
+  {
+    "itemid": "65604",
+    "name": "/discos/control03: Used space",
+    "key_": "vfs.fs.size[/discos/control03,used]",
+    "units": "B",
+    "lastvalue": "143769600"
+  },
+  {
+    "itemid": "65605",
+    "name": "/oracle: Used space",
+    "key_": "vfs.fs.size[/oracle,used]",
+    "units": "B",
+    "lastvalue": "46438567936"
+  }
+]

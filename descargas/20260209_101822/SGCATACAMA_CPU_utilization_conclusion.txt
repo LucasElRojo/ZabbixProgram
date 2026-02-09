@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - CPU utilization
+Host: SGCATACAMA
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 53.57%
+   • Máximo: 99.95%
+   • Mínimo: 0.31%
+   • P95: 86.38%
+   • P99: 97.23%
+   • Desv. Estándar: 17.08
+   • Horas pico: 01:00, 04:00, 09:00
+   • Días pico: Tuesday, Wednesday, Thursday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el CPU utilization del host SGCATACAMA durante el mes de enero, donde se observa un comportamiento de carga normal con un promedio del 53.57%. Se confirma que la utilización alcanza niveles elevados en momentos específicos, registrando un máximo de 99.95% y un valor representativo de carga alta del 86.38%. Estos peaks de saturación se concentran en las horas 01:00, 04:00 y 09:00, indicando que no son eventos sostenidos ni frecuentes a lo largo del período analizado.
+----------------------------------------
+
+Generado: 2026-02-09 10:18:36

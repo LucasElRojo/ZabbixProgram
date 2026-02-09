@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - Memory utilization
+Host: SGCATACAMA
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 36.28%
+   • Máximo: 61.92%
+   • Mínimo: 4.75%
+   • P95: 40.25%
+   • P99: 41.38%
+   • Desv. Estándar: 2.31
+   • Horas pico: 21:00, 01:00, 13:00
+   • Días pico: Wednesday, Tuesday, Thursday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el Memory utilization del host SGCATACAMA durante el mes de enero, donde se observa un comportamiento de carga normal con un promedio del 36.28% y un nivel máximo registrado del 61.92%. Se confirma que los peaks de saturación, localizados principalmente en los horarios de las 21:00, 01:00 y 13:00, no son sostenidos ni frecuentes, manteniéndose el consumo típico en un rango moderado.
+----------------------------------------
+
+Generado: 2026-02-09 10:18:35

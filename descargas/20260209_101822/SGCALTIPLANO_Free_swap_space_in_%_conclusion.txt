@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - Free swap space in %
+Host: SGCALTIPLANO
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 84.22%
+   • Máximo: 100.0%
+   • Mínimo: 52.61%
+   • P95: 97.53%
+   • P99: 99.97%
+   • Desv. Estándar: 5.59
+   • Horas pico: 01:00, 02:00, 00:00
+   • Días pico: Friday, Saturday, Sunday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el Free swap space in % para el host SGCALTIPLANO durante el mes de enero, donde se observa un comportamiento de uso de memoria swap generalmente estable. Se confirma que el promedio mensual se mantiene en un nivel saludable de 84.22%, lo que indica una carga normal de operación. Los peaks de saturación, que alcanzaron el 100.0% en momentos puntuales, se registraron principalmente en las horas de la madrugada (00:00, 01:00 y 02:00) y no son sostenidos o frecuentes, dado que el valor representativo alto (P95) se sitúa en 97.53%.
+----------------------------------------
+
+Generado: 2026-02-09 10:18:30

@@ -83,6 +83,9 @@ class PDFReportGenerator:
             'incidentes': "No se presentan incidentes de servicio.",
             'riesgos': "No se registran riesgos del servicio durante el periodo.",
             'alertas': "No se evidencian alertas que afecten la continuidad operativa.",
+            'uptime_fecha': "",
+            'uptime_servidor': "",
+            'uptime_bd': "",
             'dim_rendimiento': "Sin observaciones",
             'dim_contingencia': "Sin observaciones",
             'dim_soporte': "Sin observaciones",
@@ -90,9 +93,12 @@ class PDFReportGenerator:
             'dim_respaldos': "Sin observaciones",
         }
         
-        # Per-host configurations
-        self.host_configs = {}  # host_name -> {incidentes, riesgos, alertas}
+        # Per-host configurations (incidentes, riesgos, alertas, uptime)
+        self.host_configs = {}  # host_name -> {incidentes, riesgos, alertas, uptime_*}
         self.current_host = ""  # Track current host being generated
+        
+        # Storage/filesystem data per host
+        self.storage_data = {}  # host_name -> [{'fsname', 'pused', 'used_gb', 'total_gb'}, ...]
     
     def set_report_config(self, config: Dict, defaults: Dict = None):
         """Set the report configuration from GUI inputs."""
@@ -452,15 +458,17 @@ class PDFReportGenerator:
         return elements
     
     def _create_uptime_section(self) -> List:
-        """Create Section D: Uptime Information."""
+        """Create Section D: Uptime Information (per-host)."""
         elements = []
         
-        # Only show if at least one uptime field is filled
-        uptime_fecha = self.report_config.get('uptime_fecha', '').strip()
-        uptime_servidor = self.report_config.get('uptime_servidor', '').strip()
-        uptime_bd = self.report_config.get('uptime_bd', '').strip()
+        # Get per-host uptime values
+        uptime_fecha = self._get_host_config_value('uptime_fecha')
+        uptime_servidor = self._get_host_config_value('uptime_servidor')
+        uptime_bd = self._get_host_config_value('uptime_bd')
         
-        if not (uptime_fecha or uptime_servidor or uptime_bd):
+        # Check if empty (not just default)
+        host_config = self.host_configs.get(self.current_host, {})
+        if not (host_config.get('uptime_fecha') or host_config.get('uptime_servidor') or host_config.get('uptime_bd')):
             return elements
         
         elements.append(Paragraph("<b>Información de Uptime</b>", self.styles['ItemTitle']))
@@ -490,6 +498,100 @@ class PDFReportGenerator:
         
         elements.append(table)
         elements.append(Spacer(1, 20))
+        
+        return elements
+    
+    def add_storage_data(self, host_name: str, fs_data: List[Dict]):
+        """
+        Add filesystem/storage data for a host.
+        
+        Args:
+            host_name: Name of the host
+            fs_data: List of filesystem dicts [{fsname, pused, used_gb, total_gb}, ...]
+        """
+        if fs_data:
+            self.storage_data[host_name] = fs_data
+            logger.info(f"Added storage data for {host_name}: {len(fs_data)} partitions")
+    
+    def _create_storage_section(self) -> List:
+        """Create storage/partitions summary table for current host."""
+        elements = []
+        
+        # Get storage data for current host
+        fs_data = self.storage_data.get(self.current_host, [])
+        if not fs_data:
+            return elements
+        
+        # Section title
+        elements.append(Spacer(1, 15))
+        elements.append(Paragraph("💾 ALMACENAMIENTO", self.styles['SectionHeader']))
+        elements.append(Spacer(1, 8))
+        
+        # Table header
+        header = ['Partición', '% Usado', 'Usado (GB)', 'Total (GB)', 'Estado']
+        data = [header]
+        
+        # Add rows for each filesystem
+        for fs in fs_data:
+            fsname = fs.get('fsname', 'N/A')
+            pused = fs.get('pused', 0)
+            used_gb = fs.get('used_gb', 0)
+            total_gb = fs.get('total_gb', 0)
+            
+            # Status indicator based on usage
+            if pused >= 90:
+                status = '🔴 Crítico'
+            elif pused >= 80:
+                status = '🟠 Alto'
+            elif pused >= 70:
+                status = '🟡 Medio'
+            else:
+                status = '🟢 Normal'
+            
+            data.append([
+                fsname,
+                f"{pused:.1f}%",
+                f"{used_gb:.2f}",
+                f"{total_gb:.2f}",
+                status
+            ])
+        
+        # Create table
+        col_widths = [2.5*inch, 0.9*inch, 1*inch, 1*inch, 1*inch]
+        table = Table(data, colWidths=col_widths)
+        
+        # Style the table with color coding
+        style_commands = [
+            ('BACKGROUND', (0, 0), (-1, 0), HexColor(COLORS['primary'])),
+            ('TEXTCOLOR', (0, 0), (-1, 0), white),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, 0), 9),
+            ('FONTSIZE', (0, 1), (-1, -1), 8),
+            ('ALIGN', (1, 0), (-1, -1), 'CENTER'),
+            ('ALIGN', (0, 0), (0, -1), 'LEFT'),
+            ('GRID', (0, 0), (-1, -1), 0.5, HexColor(COLORS['border'])),
+            ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+            ('LEFTPADDING', (0, 0), (-1, -1), 6),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+            ('TOPPADDING', (0, 0), (-1, -1), 4),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 4),
+        ]
+        
+        # Add row colors based on usage
+        for i, fs in enumerate(fs_data, 1):
+            pused = fs.get('pused', 0)
+            if pused >= 90:
+                style_commands.append(('BACKGROUND', (0, i), (-1, i), HexColor('#FFEBEE')))  # Light red
+            elif pused >= 80:
+                style_commands.append(('BACKGROUND', (0, i), (-1, i), HexColor('#FFF3E0')))  # Light orange
+            elif pused >= 70:
+                style_commands.append(('BACKGROUND', (0, i), (-1, i), HexColor('#FFFDE7')))  # Light yellow
+            else:
+                style_commands.append(('BACKGROUND', (0, i), (-1, i), white))
+        
+        table.setStyle(TableStyle(style_commands))
+        elements.append(table)
+        elements.append(Spacer(1, 15))
         
         return elements
     
@@ -605,6 +707,9 @@ class PDFReportGenerator:
                     story.append(KeepTogether(item_section))
                 
                 story.append(Spacer(1, 25))
+            
+            # === Section F: Storage Table (if available) ===
+            story.extend(self._create_storage_section())
         
         # Build PDF
         try:

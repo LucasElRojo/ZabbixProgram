@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - CPU utilization
+Host: SANFERNANDO
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 13.93%
+   • Máximo: 66.75%
+   • Mínimo: 0.19%
+   • P95: 25.31%
+   • P99: 37.0%
+   • Desv. Estándar: 7.3
+   • Horas pico: 06:00, 04:00, 07:00
+   • Días pico: Saturday, Wednesday, Monday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el CPU utilization del host SANFERNANDO durante el mes de enero, donde se observa una carga de trabajo normal con un promedio de utilización del 13.93%. Se confirma que la operación habitual se mantiene muy por debajo de los niveles de saturación, registrando un máximo puntual del 66.75%. Los peaks de actividad se concentran en las primeras horas del día, específicamente a las 04:00, 06:00 y 07:00, lo que indica que las elevaciones en el uso del recurso no son sostenidas ni frecuentes.
+----------------------------------------
+
+Generado: 2026-02-06 15:16:38

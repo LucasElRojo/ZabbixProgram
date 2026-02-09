@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - CPU utilization
+Host: SGCARAUCANIA
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 37.86%
+   • Máximo: 99.6%
+   • Mínimo: 3.29%
+   • P95: 59.72%
+   • P99: 71.83%
+   • Desv. Estándar: 12.13
+   • Horas pico: 04:00, 03:00, 01:00
+   • Días pico: Thursday, Monday, Friday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el CPU utilization del host SGCARAUCANIA durante el mes de enero, donde se observa una carga de procesamiento promedio de 37.86%, lo que indica un nivel de uso general moderado. Se confirma que la actividad máxima alcanzó un 99.6%, sin embargo, estos peaks de saturación no son sostenidos o frecuentes, ya que la carga típica en condiciones de alta demanda se mantiene significativamente por debajo de ese máximo. Los horarios de mayor actividad se concentran en las primeras horas del día, específicamente a las 04:00, 03:00 y 01:00.
+----------------------------------------
+
+Generado: 2026-02-09 10:18:29

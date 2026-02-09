@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - Free swap space in %
+Host: SGCATACAMA
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 78.87%
+   • Máximo: 100.0%
+   • Mínimo: 69.22%
+   • P95: 83.08%
+   • P99: 86.57%
+   • Desv. Estándar: 2.62
+   • Horas pico: 01:00, 00:00, 03:00
+   • Días pico: Wednesday, Friday, Sunday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el Free swap space in % para el host SGCATACAMA durante el mes de enero. Se observa un comportamiento de carga normal con un promedio de 78.87% de espacio libre, confirmando una utilización estable del recurso. Los peaks de saturación, que alcanzaron el 100.0%, se registraron en horarios específicos como las 01:00, 00:00 y 03:00, lo que indica que estos eventos no son sostenidos ni frecuentes en la operación del sistema.
+----------------------------------------
+
+Generado: 2026-02-09 10:18:36

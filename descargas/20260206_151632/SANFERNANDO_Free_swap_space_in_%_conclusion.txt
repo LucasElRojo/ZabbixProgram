@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - Free swap space in %
+Host: SANFERNANDO
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 99.63%
+   • Máximo: 100.0%
+   • Mínimo: 99.03%
+   • P95: 100.0%
+   • P99: 100.0%
+   • Desv. Estándar: 0.32
+   • Horas pico: 01:00, 15:00, 14:00
+   • Días pico: Wednesday, Thursday, Saturday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el Free swap space in % para el host SANFERNANDO durante el mes de enero. Se observa que el espacio de intercambio libre se mantuvo consistentemente alto, con un promedio de 99.63%, lo que confirma una amplia disponibilidad de este recurso en condiciones normales de operación. Se registraron peaks puntuales de saturación completa al 100.0%, coincidiendo con las horas 01:00, 14:00 y 15:00; sin embargo, estos peaks no fueron sostenidos en el tiempo ni frecuentes, indicando eventos aislados dentro de un patrón general de alta disponibilidad.
+----------------------------------------
+
+Generado: 2026-02-06 15:16:39

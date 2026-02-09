@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - Free swap space in %
+Host: SGCARAUCANIA
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-01 a 2026-02-01
+   • Total de muestras: 742
+   • Promedio: 84.71%
+   • Máximo: 98.13%
+   • Mínimo: 72.94%
+   • P95: 90.34%
+   • P99: 91.57%
+   • Desv. Estándar: 3.85
+   • Horas pico: 03:00, 01:00, 09:00
+   • Días pico: Wednesday, Friday, Saturday
+
+🤖 CONCLUSIÓN IA (DeepSeek):
+----------------------------------------
+Se revisa el Free swap space in % para el host SGCARAUCANIA durante el mes de enero, donde se observa un comportamiento general estable con un nivel de espacio libre promedio del 84.71%. Se confirma que la carga normal se mantiene en rangos adecuados, y los peaks de utilización, que alcanzaron un máximo del 98.13%, se registraron principalmente en las horas 03:00, 01:00 y 09:00, indicando que estos eventos de saturación no son sostenidos ni frecuentes en el período analizado.
+----------------------------------------
+
+Generado: 2026-02-09 10:18:29

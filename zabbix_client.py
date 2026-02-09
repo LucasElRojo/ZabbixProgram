@@ -196,6 +196,38 @@ class ZabbixClient:
             logger.error(f"Error fetching items: {str(e)}")
             raise Exception(f"Error al obtener items: {str(e)}")
     
+    def get_items_by_template(self, template_id: str) -> List[Dict[str, Any]]:
+        """
+        Get items defined in a template (not inherited).
+        These items are common to all hosts linked to this template.
+        
+        Args:
+            template_id: The template ID to get items from
+            
+        Returns:
+            List of items with name and key_
+        """
+        if not self._connected or not self.api:
+            raise Exception("No conectado al servidor Zabbix")
+        
+        try:
+            items = self.api.item.get(
+                output=['itemid', 'name', 'key_', 'value_type'],
+                templateids=template_id,
+                sortfield='name',
+                filter={'status': 0}
+            )
+            # Filter items that can generate graphs (numeric values)
+            graphable_items = [
+                item for item in items 
+                if item.get('value_type') in ['0', '3']  # 0=float, 3=unsigned int
+            ]
+            logger.info(f"Found {len(graphable_items)} graphable items for template {template_id}")
+            return graphable_items
+        except Exception as e:
+            logger.error(f"Error fetching template items: {str(e)}")
+            raise Exception(f"Error al obtener items del template: {str(e)}")
+    
     def get_session_cookie(self) -> str:
         """
         Get the session cookie for chart requests.
@@ -215,3 +247,95 @@ class ZabbixClient:
             Base URL string
         """
         return self.base_url
+    
+    def get_filesystem_stats(self, host_id: str) -> List[Dict[str, Any]]:
+        """
+        Get filesystem/partition statistics for a host.
+        
+        Args:
+            host_id: The Zabbix host ID
+            
+        Returns:
+            List of dicts: [{fsname, pused, used_gb, total_gb, free_gb}, ...]
+        """
+        if not self._connected or not self.api:
+            raise Exception("No conectado al servidor Zabbix")
+        
+        try:
+            # Get filesystem items using key pattern vfs.fs.size
+            items = self.api.item.get(
+                output=['itemid', 'name', 'key_', 'lastvalue', 'units'],
+                hostids=host_id,
+                search={'key_': 'vfs.fs.size'},
+                searchWildcardsEnabled=True,
+                filter={'status': 0}
+            )
+            
+            logger.info(f"Found {len(items)} vfs.fs.size items for host {host_id}")
+            
+            if not items:
+                return []
+            
+            # Group items by filesystem name
+            fs_data = {}  # fsname -> {pused, used, total}
+            
+            for item in items:
+                key = item.get('key_', '')
+                lastvalue = item.get('lastvalue', '0')
+                
+                # Parse key: vfs.fs.size[/path,mode]
+                if 'vfs.fs.size[' not in key:
+                    continue
+                
+                try:
+                    # Extract parameters from key
+                    params = key.split('[')[1].rstrip(']')
+                    parts = params.split(',')
+                    if len(parts) < 2:
+                        continue
+                        
+                    fsname = parts[0].strip()
+                    mode = parts[1].strip()
+                    
+                    if fsname not in fs_data:
+                        fs_data[fsname] = {'fsname': fsname}
+                    
+                    # Convert value
+                    try:
+                        value = float(lastvalue)
+                    except (ValueError, TypeError):
+                        value = 0
+                    
+                    # Store by mode
+                    if mode == 'pused':
+                        fs_data[fsname]['pused'] = round(value, 1)
+                    elif mode == 'used':
+                        fs_data[fsname]['used_gb'] = round(value / (1024**3), 2)
+                    elif mode == 'total':
+                        fs_data[fsname]['total_gb'] = round(value / (1024**3), 2)
+                    elif mode == 'free':
+                        fs_data[fsname]['free_gb'] = round(value / (1024**3), 2)
+                        
+                except Exception as parse_err:
+                    logger.debug(f"Could not parse key {key}: {parse_err}")
+                    continue
+            
+            # Filter to only include filesystems with pused data
+            result = []
+            for fsname, data in fs_data.items():
+                if 'pused' in data:
+                    # Calculate missing values if possible
+                    if 'used_gb' not in data and 'total_gb' in data and 'pused' in data:
+                        data['used_gb'] = round(data['total_gb'] * data['pused'] / 100, 2)
+                    if 'free_gb' not in data and 'total_gb' in data and 'used_gb' in data:
+                        data['free_gb'] = round(data['total_gb'] - data['used_gb'], 2)
+                    result.append(data)
+            
+            # Sort by filesystem name
+            result.sort(key=lambda x: x.get('fsname', ''))
+            logger.info(f"Returning {len(result)} filesystems with pused data")
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error fetching filesystem stats: {str(e)}")
+            return []
