@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - Memory utilization
+Host: SGCALTIPLANO
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-06 a 2026-02-05
+   • Total de muestras: 717
+   • Promedio: 69.96%
+   • Máximo: 94.78%
+   • Mínimo: 3.14%
+   • P95: 81.81%
+   • P99: 84.44%
+   • Desv. Estándar: 9.1
+   • Horas pico: 21:00, 14:00, 13:00
+   • Días pico: Thursday, Tuesday, Monday
+
+🤖 CONCLUSIÓN IA (ChatGPT):
+----------------------------------------
+Se revisa el Memory utilization del host SGCALTIPLANO durante el mes de enero, donde se observa un promedio de utilización del 69.96%, lo que indica una carga normal y estable en la mayoría de las horas del día. Se confirma que los momentos de mayor utilización se registran en horas específicas, siendo las más notables a las 21:00, 14:00 y 13:00, alcanzando un máximo de 94.78%. Sin embargo, se destaca que estos picos de saturación no son sostenidos ni frecuentes, lo que sugiere que el sistema mantiene un rendimiento adecuado y no presenta problemas de capacidad en su operación diaria.
+----------------------------------------
+
+Generado: 2026-02-05 19:54:42

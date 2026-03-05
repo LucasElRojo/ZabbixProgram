@@ -1,0 +1,23 @@
+============================================================
+ANÁLISIS DE MÉTRICAS - CPU utilization
+Host: SGCALTIPLANO
+============================================================
+
+📊 ESTADÍSTICAS:
+   • Período: 2026-01-06 a 2026-02-05
+   • Total de muestras: 717
+   • Promedio: 37.68%
+   • Máximo: 99.83%
+   • Mínimo: 0.79%
+   • P95: 60.85%
+   • P99: 78.42%
+   • Desv. Estándar: 13.15
+   • Horas pico: 03:00, 01:00, 04:00
+   • Días pico: Tuesday, Saturday, Wednesday
+
+🤖 CONCLUSIÓN IA (ChatGPT):
+----------------------------------------
+Se revisa el CPU utilization del host SGCALTIPLANO durante el mes de enero, donde se observa un promedio de 37.68%, lo que indica una carga normal en el sistema. Se confirma que, aunque se registraron momentos de alta utilización, con un máximo alcanzado de 99.83%, estos picos no son sostenidos ni frecuentes, ocurriendo principalmente en las horas de 03:00, 01:00 y 04:00. Esto sugiere que el sistema maneja adecuadamente la carga en general, sin evidenciar problemas significativos de rendimiento a lo largo del mes.
+----------------------------------------
+
+Generado: 2026-02-05 19:54:35
